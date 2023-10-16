@@ -9,10 +9,19 @@ var svg = d3.select("#network")
     .attr("height", h);
 
 
-// Define color groups based on the group attribute
-var color = d3.scaleOrdinal()
-    .domain([0, 1, 2, 3])
-    .range(["#ffa500", "#3b5998", "#1976d2", "#388e3c"]);
+// Create a categorical color scale
+// Combine multiple D3 color schemes to create a larger palette
+var extendedPalette = [].concat(
+    d3.schemeCategory10,
+    d3.schemeSet1,
+    d3.schemeSet2,
+    d3.schemeSet3,
+    d3.schemePastel1,
+    d3.schemePastel2,
+    d3.schemeTableau10
+);
+
+var color = d3.scaleOrdinal(extendedPalette);
 
 // Tooltip setup
 var div = d3.select("div.tooltip");
@@ -30,11 +39,21 @@ d3.json("interactive-landscape.json").then(function(graph) {
         }
     });
 
+    // Function to find category for a node
+    function findCategory(nodeId) {
+        for (let link of graph.links) {
+            if (link.target.id === nodeId) {
+                return link.source.id;
+            }
+        }
+        return null;
+    }
+
     // Force layout setup
     var force = d3.forceSimulation()
         .nodes(graph.nodes)
         .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(40))
-        .force("charge", d3.forceManyBody().strength(-1))
+        .force("charge", d3.forceManyBody().strength(-1).distanceMax(450))
         .force("center", d3.forceCenter(w / 2, h / 2))
         .force("collide", d3.forceCollide().radius(10))
         .on("tick", ticked);
@@ -54,16 +73,18 @@ d3.json("interactive-landscape.json").then(function(graph) {
         .enter().append("circle")
         .attr("class", "node")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.group); })
-        .call(d3.drag()
+        .attr("fill", function(d) { 
+            const category = findCategory(d.id);
+            return category ? color(category) : "#999"; // Default gray color if no category found
+        }).call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
             .on("end", dragended));
 
-    // node.on("click", nodeClicked)
-    //     .on("dblclick", nodeDoubleClicked)
-    //     .on("mouseover", nodeMouseover)
-    //     .on("mouseout", nodeMouseout);
+    node.on("click", nodeClicked)
+        .on("dblclick", nodeDoubleClicked)
+        .on("mouseover", nodeMouseover)
+        .on("mouseout", nodeMouseout);
 
     // Draw node labels
     var labels = svg.selectAll(".label")
@@ -71,7 +92,7 @@ d3.json("interactive-landscape.json").then(function(graph) {
     .enter().append("text")
     .attr("class", "label")
     .text(function(d) { return d.id; })
-    .style("font-size", "5px")
+    .style("font-size", "6px")
     .style("pointer-events", "none");
 
     // Functions for the force layout
@@ -105,41 +126,41 @@ d3.json("interactive-landscape.json").then(function(graph) {
         d.fy = null;
     }
 
-    // // Functions for node interactions
-    // function nodeClicked(d, i) {
-    //     d3.select(this).style("fill", d3.select(this).style("fill") === "orange" ? color(d.group) : "orange");
-    // }
+    // Functions for node interactions
+    function nodeClicked(d, i) {
+        d3.select(this).style("fill", d3.select(this).style("fill") === "orange" ? color(d.group) : "orange");
+    }
 
-    // function nodeDoubleClicked(d, i) {
-    //     d.fixed = !d.fixed;
-    // }
+    function nodeDoubleClicked(d, i) {
+        d.fixed = !d.fixed;
+    }
 
-    // function nodeMouseover(d, i) {
-    //     div.style("visibility", "visible")
-    //         .transition()
-    //         .duration(200)
-    //         .style("opacity", .9);
-    //     div.html("ID: " + d.id + "<br/>Group: " + d.group)
-    //         .style("left", (d.x + 15) + "px")
-    //         .style("top", (d.y - 30) + "px");
-    // }
+    function nodeMouseover(d, i) {
+        div.style("visibility", "visible")
+            .transition()
+            .duration(200)
+            .style("opacity", .9);
+        div.html("ID: " + d.id + "<br/>Group: " + d.group)
+            .style("left", (d.x + 15) + "px")
+            .style("top", (d.y - 30) + "px");
+    }
 
-    // function nodeMouseout(d, i) {
-    //     div.transition()
-    //         .duration(500)
-    //         .style("opacity", 0)
-    //         .on("end", function() {
-    //             div.style("visibility", "hidden");
-    //         });
-    // }
+    function nodeMouseout(d, i) {
+        div.transition()
+            .duration(500)
+            .style("opacity", 0)
+            .on("end", function() {
+                div.style("visibility", "hidden");
+            });
+    }
 
-    // // Explode graph on double-click anywhere
-    // svg.on("dblclick", function() {
-    //     graph.nodes.forEach(function(o, i) {
-    //         o.x += (Math.random() - .5) * 200;
-    //         o.y += (Math.random() - .5) * 200;
-    //     });
-    //     force.alpha(1).restart();
-    // });
+    // Explode graph on double-click anywhere
+    svg.on("dblclick", function() {
+        graph.nodes.forEach(function(o, i) {
+            o.x += (Math.random() - .5) * 200;
+            o.y += (Math.random() - .5) * 200;
+        });
+        force.alpha(1).restart();
+    });
 
 });

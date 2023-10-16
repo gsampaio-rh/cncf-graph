@@ -89,7 +89,7 @@ d3.json("interactive-landscape.json").then(function(graph) {
     }
 
     function dragstarted(event, d) {
-        if (!event.active) force.alphaTarget(0.3).restart();
+        if (!event.active) force.alphaTarget(0.1).restart();
         d.fx = d.x;
         d.fy = d.y;
     }

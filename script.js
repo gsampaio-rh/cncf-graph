@@ -57,18 +57,22 @@ d3.json("restructured_data.json").then(function(data) {
     graph.nodes.push(cncfNode);
 
     data.cncf.forEach((cat) => {
-        const categoryNode = { id: cat.category, group: 1 };
+        let catID = cat.category;
+        if (cat.category === "Orchestration & Management") {
+            catID += " Cat";
+        }
+        const categoryNode = { id: catID, group: 1 };
         graph.nodes.push(categoryNode);
-        graph.links.push({ source: "CNCF", target: cat.category });
+        graph.links.push({ source: "CNCF", target: catID });
     
         cat.subcategories.forEach((subcat) => {
-            const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: cat.category };
+            const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: catID };
             graph.nodes.push(subcategoryNode);
-            graph.links.push({ source: cat.category, target: subcat.subcategory });
+            graph.links.push({ source: catID, target: subcat.subcategory });
         });
     });
 
-    calculateRadialPositions(graph.nodes, w / 2, h / 2, 150, 300);
+    calculateRadialPositions(graph.nodes, w / 2, h / 2, 75, 150);
 
     var force = d3.forceSimulation()
         .nodes(graph.nodes)
@@ -105,8 +109,11 @@ d3.json("restructured_data.json").then(function(data) {
         .data(graph.nodes)
         .enter().append("text")
         .attr("class", "label")
-        .text(function(d) { return d.id; })
-        .style("font-size", "8px")
+        .text(function(d) { 
+            // Remove the suffix from the label display
+            return d.id.replace(' Cat', ''); 
+        })
+        .style("font-size", "7px")
         .style("pointer-events", "none");
 
     function ticked() {

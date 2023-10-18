@@ -1,0 +1,2244 @@
+Name;Category;Subcategory,,
+Airship;Provisioning;Automation & Configuration,,
+Akri;Provisioning;Automation & Configuration,,
+Ansible;Provisioning;Automation & Configuration,,
+Apollo;Provisioning;Automation & Configuration,,
+AWS CloudFormation;Provisioning;Automation & Configuration,,
+BOSH;Provisioning;Automation & Configuration,,
+Cadence Workflow;Provisioning;Automation & Configuration,,
+CDK for Kubernetes (CDK8s);Provisioning;Automation & Configuration,,
+CFEngine;Provisioning;Automation & Configuration,,
+Chef Infra;Provisioning;Automation & Configuration,,
+Cloud Custodian;Provisioning;Automation & Configuration,,
+Cloudify;Provisioning;Automation & Configuration,,
+Couler;Provisioning;Automation & Configuration,,
+DevStream;Provisioning;Automation & Configuration,,
+Digital Rebar;Provisioning;Automation & Configuration,,
+Enterprisedb;Provisioning;Automation & Configuration,,
+Foreman;Provisioning;Automation & Configuration,,
+Idem Project;Provisioning;Automation & Configuration,,
+Juju;Provisioning;Automation & Configuration,,
+KCL;Provisioning;Automation & Configuration,,
+kiosk;Provisioning;Automation & Configuration,,
+kpt;Provisioning;Automation & Configuration,,
+KubeDL;Provisioning;Automation & Configuration,,
+KubeEdge;Provisioning;Automation & Configuration,,
+Kubefirst;Provisioning;Automation & Configuration,,
+KubeZoo;Provisioning;Automation & Configuration,,
+KusionStack;Provisioning;Automation & Configuration,,
+LinuxKit;Provisioning;Automation & Configuration,,
+MAAS;Provisioning;Automation & Configuration,,
+ManageIQ;Provisioning;Automation & Configuration,,
+Meshery;Provisioning;Automation & Configuration,,
+Metal³;Provisioning;Automation & Configuration,,
+Mist.io;Provisioning;Automation & Configuration,,
+OpenStack;Provisioning;Automation & Configuration,,
+OpenYurt;Provisioning;Automation & Configuration,,
+Project Syn;Provisioning;Automation & Configuration,,
+Pulumi;Provisioning;Automation & Configuration,,
+Puppet;Provisioning;Automation & Configuration,,
+Rundeck;Provisioning;Automation & Configuration,,
+Salt Project;Provisioning;Automation & Configuration,,
+Shifu;Provisioning;Automation & Configuration,,
+SuperEdge;Provisioning;Automation & Configuration,,
+Terraform;Provisioning;Automation & Configuration,,
+Tinkerbell;Provisioning;Automation & Configuration,,
+VMware vSphere;Provisioning;Automation & Configuration,,
+Alibaba Cloud Container Registry (ACR);Provisioning;Container Registry,,
+Amazon Elastic Container Registry (ECR);Provisioning;Container Registry,,
+Azure Registry;Provisioning;Container Registry,,
+Distribution;Provisioning;Container Registry,,
+Dragonfly;Provisioning;Container Registry,,
+Google Container Registry;Provisioning;Container Registry,,
+Harbor;Provisioning;Container Registry,,
+IBM Cloud Container Registry;Provisioning;Container Registry,,
+JFrog Artifactory;Provisioning;Container Registry,,
+Kraken;Provisioning;Container Registry,,
+Portus;Provisioning;Container Registry,,
+Quay;Provisioning;Container Registry,,
+zot;Provisioning;Container Registry,,
+Airlock;Provisioning;Security & Compliance,,
+Alcide;Provisioning;Security & Compliance,,
+Anchore;Provisioning;Security & Compliance,,
+APIClarity;Provisioning;Security & Compliance,,
+Apolicy;Provisioning;Security & Compliance,,
+Aqua;Provisioning;Security & Compliance,,
+ARMO;Provisioning;Security & Compliance,,
+Aserto;Provisioning;Security & Compliance,,
+Black Duck;Provisioning;Security & Compliance,,
+Bloombase;Provisioning;Security & Compliance,,
+Capsule8;Provisioning;Security & Compliance,,
+Cerbos;Provisioning;Security & Compliance,,
+cert-manager;Provisioning;Security & Compliance,,
+Chaitin Tech;Provisioning;Security & Compliance,,
+Check Point;Provisioning;Security & Compliance,,
+Checkov;Provisioning;Security & Compliance,,
+Chef InSpec;Provisioning;Security & Compliance,,
+Clair;Provisioning;Security & Compliance,,
+CloudMatos;Provisioning;Security & Compliance,,
+Confidential Containers;Provisioning;Security & Compliance,,
+ContainerSSH;Provisioning;Security & Compliance,,
+Curiefense;Provisioning;Security & Compliance,,
+Datica;Provisioning;Security & Compliance,,
+Datree;Provisioning;Security & Compliance,,
+Dex;Provisioning;Security & Compliance,,
+Dosec;Provisioning;Security & Compliance,,
+EJBCA Community;Provisioning;Security & Compliance,,
+external-secrets;Provisioning;Security & Compliance,,
+Fairwinds Insights;Provisioning;Security & Compliance,,
+Falco;Provisioning;Security & Compliance,,
+FOSSA;Provisioning;Security & Compliance,,
+FOSSID;Provisioning;Security & Compliance,,
+Fugue;Provisioning;Security & Compliance,,
+GitGuardian;Provisioning;Security & Compliance,,
+Goldilocks;Provisioning;Security & Compliance,,
+Grafeas;Provisioning;Security & Compliance,,
+Hexa;Provisioning;Security & Compliance,,
+in-toto;Provisioning;Security & Compliance,,
+Keycloak;Provisioning;Security & Compliance,,
+Keylime;Provisioning;Security & Compliance,,
+KICS;Provisioning;Security & Compliance,,
+KSOC;Provisioning;Security & Compliance,,
+kube-bench;Provisioning;Security & Compliance,,
+kube-hunter;Provisioning;Security & Compliance,,
+KubeArmor;Provisioning;Security & Compliance,,
+KubeClarity;Provisioning;Security & Compliance,,
+KubeLinter;Provisioning;Security & Compliance,,
+Kubescape;Provisioning;Security & Compliance,,
+Kubewarden;Provisioning;Security & Compliance,,
+Kyverno;Provisioning;Security & Compliance,,
+Matano;Provisioning;Security & Compliance,,
+Metarget;Provisioning;Security & Compliance,,
+Mondoo;Provisioning;Security & Compliance,,
+MoreSec;Provisioning;Security & Compliance,,
+NeuVector;Provisioning;Security & Compliance,,
+Nirmata Cloud Native Policy Manager;Provisioning;Security & Compliance,,
+Notary;Provisioning;Security & Compliance,,
+Open Policy Agent (OPA);Provisioning;Security & Compliance,,
+Open Policy Containers;Provisioning;Security & Compliance,,
+OpenFGA;Provisioning;Security & Compliance,,
+OpenSCAP;Provisioning;Security & Compliance,,
+Orca Security;Provisioning;Security & Compliance,,
+Oxeye;Provisioning;Security & Compliance,,
+Paladin Cloud;Provisioning;Security & Compliance,,
+Paralus;Provisioning;Security & Compliance,,
+Parsec;Provisioning;Security & Compliance,,
+Passage;Provisioning;Security & Compliance,,
+Pluto;Provisioning;Security & Compliance,,
+Polaris;Provisioning;Security & Compliance,,
+Portshift;Provisioning;Security & Compliance,,
+Prisma Cloud;Provisioning;Security & Compliance,,
+Qingteng;Provisioning;Security & Compliance,,
+RBAC Lookup;Provisioning;Security & Compliance,,
+RBAC Manager;Provisioning;Security & Compliance,,
+Rudder;Provisioning;Security & Compliance,,
+Scribe Security Platform;Provisioning;Security & Compliance,,
+sigstore;Provisioning;Security & Compliance,,
+SlimToolkit;Provisioning;Security & Compliance,,
+Snyk;Provisioning;Security & Compliance,,
+Sonatype Nexus;Provisioning;Security & Compliance,,
+Sonobuoy;Provisioning;Security & Compliance,,
+SOPS;Provisioning;Security & Compliance,,
+Spyderbat;Provisioning;Security & Compliance,,
+StackHawk;Provisioning;Security & Compliance,,
+StackRox;Provisioning;Security & Compliance,,
+Sysdig Secure;Provisioning;Security & Compliance,,
+Tensor Security;Provisioning;Security & Compliance,,
+Terrascan;Provisioning;Security & Compliance,,
+Tetragon;Provisioning;Security & Compliance,,
+The Update Framework (TUF);Provisioning;Security & Compliance,,
+ThreatMapper;Provisioning;Security & Compliance,,
+Tigera;Provisioning;Security & Compliance,,
+Topaz;Provisioning;Security & Compliance,,
+Trend Micro Cloud One;Provisioning;Security & Compliance,,
+Trivy;Provisioning;Security & Compliance,,
+Trivy-Operator;Provisioning;Security & Compliance,,
+Veinmind Tools;Provisioning;Security & Compliance,,
+VMClarity;Provisioning;Security & Compliance,,
+WhiteSource;Provisioning;Security & Compliance,,
+Zettaset;Provisioning;Security & Compliance,,
+Athenz;Provisioning;Key Management,,
+Authing;Provisioning;Key Management,,
+CyberArk Conjur;Provisioning;Key Management,,
+OAuth2 Proxy;Provisioning;Key Management,,
+ORY Hydra;Provisioning;Key Management,,
+Pinniped;Provisioning;Key Management,,
+Pomerium;Provisioning;Key Management,,
+SPIFFE;Provisioning;Key Management,,
+SPIRE;Provisioning;Key Management,,
+Square Keywhiz;Provisioning;Key Management,,
+sso;Provisioning;Key Management,,
+Teleport;Provisioning;Key Management,,
+Teller;Provisioning;Key Management,,
+Vault;Provisioning;Key Management,,
+Afi.ai;Runtime;Cloud Native Storage,,
+Alibaba Cloud File Storage;Runtime;Cloud Native Storage,,
+Alibaba Cloud File Storage CPFS;Runtime;Cloud Native Storage,,
+Alluxio;Runtime;Cloud Native Storage,,
+Amazon Elastic Block Store (EBS);Runtime;Cloud Native Storage,,
+Arrikto;Runtime;Cloud Native Storage,,
+Azure Disk Storage;Runtime;Cloud Native Storage,,
+Carina;Runtime;Cloud Native Storage,,
+Ceph;Runtime;Cloud Native Storage,,
+CloudCasa by Catalogic Software;Runtime;Cloud Native Storage,,
+Commvault;Runtime;Cloud Native Storage,,
+Container Storage Interface (CSI);Runtime;Cloud Native Storage,,
+CubeFS;Runtime;Cloud Native Storage,,
+Curve;Runtime;Cloud Native Storage,,
+DataCore Bolt;Runtime;Cloud Native Storage,,
+DatenLord;Runtime;Cloud Native Storage,,
+Datera;Runtime;Cloud Native Storage,,
+Dell EMC;Runtime;Cloud Native Storage,,
+Diamanti;Runtime;Cloud Native Storage,,
+DriveScale;Runtime;Cloud Native Storage,,
+ExponTech;Runtime;Cloud Native Storage,,
+Gluster;Runtime;Cloud Native Storage,,
+Google Persistent Disk;Runtime;Cloud Native Storage,,
+Hitachi;Runtime;Cloud Native Storage,,
+HPE Storage;Runtime;Cloud Native Storage,,
+Huawei;Runtime;Cloud Native Storage,,
+HwameiStor;Runtime;Cloud Native Storage,,
+IBM Storage;Runtime;Cloud Native Storage,,
+INFINIDAT;Runtime;Cloud Native Storage,,
+Inspur Storage;Runtime;Cloud Native Storage,,
+IOMesh;Runtime;Cloud Native Storage,,
+Ionir;Runtime;Cloud Native Storage,,
+JuiceFS;Runtime;Cloud Native Storage,,
+K8up;Runtime;Cloud Native Storage,,
+Kasten;Runtime;Cloud Native Storage,,
+LINSTOR;Runtime;Cloud Native Storage,,
+Longhorn;Runtime;Cloud Native Storage,,
+MinIO;Runtime;Cloud Native Storage,,
+MooseFS;Runtime;Cloud Native Storage,,
+NetApp;Runtime;Cloud Native Storage,,
+Nutanix Objects;Runtime;Cloud Native Storage,,
+Ondat;Runtime;Cloud Native Storage,,
+OpenEBS;Runtime;Cloud Native Storage,,
+OpenIO;Runtime;Cloud Native Storage,,
+ORAS;Runtime;Cloud Native Storage,,
+Pengyun Network;Runtime;Cloud Native Storage,,
+Piraeus Datastore;Runtime;Cloud Native Storage,,
+Portworx;Runtime;Cloud Native Storage,,
+Pure Storage;Runtime;Cloud Native Storage,,
+QingStor;Runtime;Cloud Native Storage,,
+Qumulo;Runtime;Cloud Native Storage,,
+Quobyte;Runtime;Cloud Native Storage,,
+Robin Systems;Runtime;Cloud Native Storage,,
+Rook;Runtime;Cloud Native Storage,,
+SandStone;Runtime;Cloud Native Storage,,
+Sangfor EDS;Runtime;Cloud Native Storage,,
+ScaleFlash;Runtime;Cloud Native Storage,,
+Scality RING;Runtime;Cloud Native Storage,,
+Soda Foundation;Runtime;Cloud Native Storage,,
+Stash by AppsCode;Runtime;Cloud Native Storage,,
+StorPool;Runtime;Cloud Native Storage,,
+Swift;Runtime;Cloud Native Storage,,
+Trilio;Runtime;Cloud Native Storage,,
+Triton Object Storage;Runtime;Cloud Native Storage,,
+Velero;Runtime;Cloud Native Storage,,
+Veritas Infoscale™ for Kubernetes;Runtime;Cloud Native Storage,,
+Vineyard;Runtime;Cloud Native Storage,,
+XSKY;Runtime;Cloud Native Storage,,
+YRCloudFile;Runtime;Cloud Native Storage,,
+Zenko;Runtime;Cloud Native Storage,,
+containerd;Runtime;Container Runtime,,
+CRI-O;Runtime;Container Runtime,,
+Firecracker;Runtime;Container Runtime,,
+gVisor;Runtime;Container Runtime,,
+Inclavare Containers;Runtime;Container Runtime,,
+iSulad;Runtime;Container Runtime,,
+Kata Containers;Runtime;Container Runtime,,
+Krustlet;Runtime;Container Runtime,,
+Kuasar;Runtime;Container Runtime,,
+Lima;Runtime;Container Runtime,,
+lxd;Runtime;Container Runtime,,
+rkt;Runtime;Container Runtime,,
+runc;Runtime;Container Runtime,,
+Singularity;Runtime;Container Runtime,,
+SmartOS;Runtime;Container Runtime,,
+StratoVirt;Runtime;Container Runtime,,
+Sysbox;Runtime;Container Runtime,,
+Virtual Kubelet;Runtime;Container Runtime,,
+WasmEdge Runtime;Runtime;Container Runtime,,
+Antrea;Runtime;Cloud Native Network,,
+Aviatrix;Runtime;Cloud Native Network,,
+Cilium;Runtime;Cloud Native Network,,
+CNI-Genie;Runtime;Cloud Native Network,,
+Container Network Interface (CNI);Runtime;Cloud Native Network,,
+Cumulus;Runtime;Cloud Native Network,,
+DANM;Runtime;Cloud Native Network,,
+FabEdge;Runtime;Cloud Native Network,,
+FD.io;Runtime;Cloud Native Network,,
+Flannel;Runtime;Cloud Native Network,,
+Guardicore Centra;Runtime;Cloud Native Network,,
+Isovalent;Runtime;Cloud Native Network,,
+Kilo;Runtime;Cloud Native Network,,
+Kube-OVN;Runtime;Cloud Native Network,,
+Kube-router;Runtime;Cloud Native Network,,
+kube-vip;Runtime;Cloud Native Network,,
+Ligato;Runtime;Cloud Native Network,,
+Multus;Runtime;Cloud Native Network,,
+Network Service Mesh;Runtime;Cloud Native Network,,
+Nuage Networks;Runtime;Cloud Native Network,,
+Open vSwitch;Runtime;Cloud Native Network,,
+Project Calico;Runtime;Cloud Native Network,,
+Spiderpool;Runtime;Cloud Native Network,,
+Submariner;Runtime;Cloud Native Network,,
+Tungsten Fabric;Runtime;Cloud Native Network,,
+VMware NSX;Runtime;Cloud Native Network,,
+Weave Net;Runtime;Cloud Native Network,,
+Amazon Elastic Container Service (ECS);Orchestration & Management;Scheduling & Orchestration,,
+Apache Mesos;Orchestration & Management;Scheduling & Orchestration,,
+Armada;Orchestration & Management;Scheduling & Orchestration,,
+Azure Service Fabric;Orchestration & Management;Scheduling & Orchestration,,
+Capsule;Orchestration & Management;Scheduling & Orchestration,,
+China Mobile Cloud CNP;Orchestration & Management;Scheduling & Orchestration,,
+China Mobile Panji PaaS Platform;Orchestration & Management;Scheduling & Orchestration,,
+Clusternet;Orchestration & Management;Scheduling & Orchestration,,
+Clusterpedia;Orchestration & Management;Scheduling & Orchestration,,
+Crossplane;Orchestration & Management;Scheduling & Orchestration,,
+Docker Swarm;Orchestration & Management;Scheduling & Orchestration,,
+DolphinScheduler;Orchestration & Management;Scheduling & Orchestration,,
+Eraser;Orchestration & Management;Scheduling & Orchestration,,
+Fluid;Orchestration & Management;Scheduling & Orchestration,,
+iSSCloud;Orchestration & Management;Scheduling & Orchestration,,
+Karmada;Orchestration & Management;Scheduling & Orchestration,,
+kcp;Orchestration & Management;Scheduling & Orchestration,,
+KEDA;Orchestration & Management;Scheduling & Orchestration,,
+Knative;Orchestration & Management;Scheduling & Orchestration,,
+Koordinator;Orchestration & Management;Scheduling & Orchestration,,
+kube-green;Orchestration & Management;Scheduling & Orchestration,,
+kube-rs;Orchestration & Management;Scheduling & Orchestration,,
+Kubeflow;Orchestration & Management;Scheduling & Orchestration,,
+Kubernetes;Orchestration & Management;Scheduling & Orchestration,,
+Kured;Orchestration & Management;Scheduling & Orchestration,,
+Nomad;Orchestration & Management;Scheduling & Orchestration,,
+Open Cluster Management;Orchestration & Management;Scheduling & Orchestration,,
+OpenFunction;Orchestration & Management;Scheduling & Orchestration,,
+OpenNebula;Orchestration & Management;Scheduling & Orchestration,,
+Prefect;Orchestration & Management;Scheduling & Orchestration,,
+Serverless Devs;Orchestration & Management;Scheduling & Orchestration,,
+StackStorm;Orchestration & Management;Scheduling & Orchestration,,
+Volcano;Orchestration & Management;Scheduling & Orchestration,,
+wasmCloud;Orchestration & Management;Scheduling & Orchestration,,
+Apache Zookeeper;Orchestration & Management;Coordination & Service Discovery,,
+AWS Cloud Map;Orchestration & Management;Coordination & Service Discovery,,
+CoreDNS;Orchestration & Management;Coordination & Service Discovery,,
+etcd;Orchestration & Management;Coordination & Service Discovery,,
+k8gb;Orchestration & Management;Coordination & Service Discovery,,
+KubeBrain;Orchestration & Management;Coordination & Service Discovery,,
+Nacos;Orchestration & Management;Coordination & Service Discovery,,
+Netflix Eureka;Orchestration & Management;Coordination & Service Discovery,,
+Xline;Orchestration & Management;Coordination & Service Discovery,,
+Apache bRPC;Orchestration & Management;Remote Procedure Call,,
+Apache Thrift;Orchestration & Management;Remote Procedure Call,,
+Avro;Orchestration & Management;Remote Procedure Call,,
+CloudWeGo;Orchestration & Management;Remote Procedure Call,,
+Dubbo;Orchestration & Management;Remote Procedure Call,,
+go-zero;Orchestration & Management;Remote Procedure Call,,
+gRPC;Orchestration & Management;Remote Procedure Call,,
+kratos;Orchestration & Management;Remote Procedure Call,,
+SOFARPC;Orchestration & Management;Remote Procedure Call,,
+SRPC;Orchestration & Management;Remote Procedure Call,,
+TARS;Orchestration & Management;Remote Procedure Call,,
+Avi Networks;Orchestration & Management;Service Proxy,,
+BFE;Orchestration & Management;Service Proxy,,
+Caddy;Orchestration & Management;Service Proxy,,
+Citrix ADC (formerly NetScaler ADC);Orchestration & Management;Service Proxy,,
+Contour;Orchestration & Management;Service Proxy,,
+Envoy;Orchestration & Management;Service Proxy,,
+F5;Orchestration & Management;Service Proxy,,
+HAProxy;Orchestration & Management;Service Proxy,,
+Inlets;Orchestration & Management;Service Proxy,,
+MetalLB;Orchestration & Management;Service Proxy,,
+MOSN;Orchestration & Management;Service Proxy,,
+Netflix Zuul;Orchestration & Management;Service Proxy,,
+NGINX;Orchestration & Management;Service Proxy,,
+OpenELB;Orchestration & Management;Service Proxy,,
+OpenResty;Orchestration & Management;Service Proxy,,
+Pipy;Orchestration & Management;Service Proxy,,
+Sangfor CNAD;Orchestration & Management;Service Proxy,,
+Sentinel;Orchestration & Management;Service Proxy,,
+Skipper;Orchestration & Management;Service Proxy,,
+Snapt Nova;Orchestration & Management;Service Proxy,,
+STUNner;Orchestration & Management;Service Proxy,,
+Tengine;Orchestration & Management;Service Proxy,,
+Traefik;Orchestration & Management;Service Proxy,,
+3Scale;Orchestration & Management;API Gateway,,
+Akana;Orchestration & Management;API Gateway,,
+APIOAK;Orchestration & Management;API Gateway,,
+APISIX;Orchestration & Management;API Gateway,,
+Azure API Management;Orchestration & Management;API Gateway,,
+Easegress;Orchestration & Management;API Gateway,,
+Emissary-Ingress;Orchestration & Management;API Gateway,,
+EnRoute OneStep Ingress;Orchestration & Management;API Gateway,,
+Gloo;Orchestration & Management;API Gateway,,
+Gravitee.io;Orchestration & Management;API Gateway,,
+Hango;Orchestration & Management;API Gateway,,
+Higress;Orchestration & Management;API Gateway,,
+Kong;Orchestration & Management;API Gateway,,
+KrakenD;Orchestration & Management;API Gateway,,
+KubeGateway;Orchestration & Management;API Gateway,,
+Kusk Gateway;Orchestration & Management;API Gateway,,
+MuleSoft;Orchestration & Management;API Gateway,,
+ngrok;Orchestration & Management;API Gateway,,
+Reactive Interaction Gateway;Orchestration & Management;API Gateway,,
+Tyk;Orchestration & Management;API Gateway,,
+WSO2 API Microgateway;Orchestration & Management;API Gateway,,
+Aeraki Mesh;Orchestration & Management;Service Mesh,,
+AWS App Mesh;Orchestration & Management;Service Mesh,,
+Consul;Orchestration & Management;Service Mesh,,
+EaseMesh;Orchestration & Management;Service Mesh,,
+Flomesh Service Mesh (FSM);Orchestration & Management;Service Mesh,,
+Glasnostic;Orchestration & Management;Service Mesh,,
+Gloo Mesh;Orchestration & Management;Service Mesh,,
+greymatter.io;Orchestration & Management;Service Mesh,,
+Istio;Orchestration & Management;Service Mesh,,
+Kuma;Orchestration & Management;Service Mesh,,
+Linkerd;Orchestration & Management;Service Mesh,,
+Merbridge;Orchestration & Management;Service Mesh,,
+Nasp;Orchestration & Management;Service Mesh,,
+Open Service Mesh;Orchestration & Management;Service Mesh,,
+OpenSergo;Orchestration & Management;Service Mesh,,
+Sermant;Orchestration & Management;Service Mesh,,
+Service Mesh Interface (SMI);Orchestration & Management;Service Mesh,,
+Service Mesh Performance;Orchestration & Management;Service Mesh,,
+Slime;Orchestration & Management;Service Mesh,,
+Tetrate Service Bridge (TSB);Orchestration & Management;Service Mesh,,
+Traefik Mesh;Orchestration & Management;Service Mesh,,
+Apache CarbonData;App Definition and Development;Database,,
+Apache Hadoop;App Definition and Development;Database,,
+Apache Ignite;App Definition and Development;Database,,
+ArangoDB;App Definition and Development;Database,,
+BigchainDB;App Definition and Development;Database,,
+Cassandra;App Definition and Development;Database,,
+ClickHouse;App Definition and Development;Database,,
+CockroachDB;App Definition and Development;Database,,
+Couchbase;App Definition and Development;Database,,
+Crate.io;App Definition and Development;Database,,
+Crunchy Postgres Operator;App Definition and Development;Database,,
+Crux;App Definition and Development;Database,,
+Databend;App Definition and Development;Database,,
+Dgraph;App Definition and Development;Database,,
+Doris;App Definition and Development;Database,,
+DragonflyDB;App Definition and Development;Database,,
+Druid;App Definition and Development;Database,,
+FoundationDB;App Definition and Development;Database,,
+GraphScope;App Definition and Development;Database,,
+GreptimeDB;App Definition and Development;Database,,
+Hazelcast IMDG;App Definition and Development;Database,,
+IBM Db2;App Definition and Development;Database,,
+iguazio;App Definition and Development;Database,,
+Infinispan;App Definition and Development;Database,,
+InterSystems IRIS Data Platform;App Definition and Development;Database,,
+KubeBlocks by ApeCloud;App Definition and Development;Database,,
+KubeDB by AppsCode;App Definition and Development;Database,,
+MariaDB;App Definition and Development;Database,,
+Microsoft SQL Server;App Definition and Development;Database,,
+MogDB;App Definition and Development;Database,,
+MongoDB;App Definition and Development;Database,,
+MySQL;App Definition and Development;Database,,
+NebulaGraph;App Definition and Development;Database,,
+Neo4j;App Definition and Development;Database,,
+NomsDB;App Definition and Development;Database,,
+NuoDB;App Definition and Development;Database,,
+OceanBase;App Definition and Development;Database,,
+openGauss;App Definition and Development;Database,,
+Oracle Database;App Definition and Development;Database,,
+OrientDB;App Definition and Development;Database,,
+Percona Server for MySQL;App Definition and Development;Database,,
+Pilosa;App Definition and Development;Database,,
+PostgreSQL;App Definition and Development;Database,,
+Presto;App Definition and Development;Database,,
+Qdrant;App Definition and Development;Database,,
+Qubole;App Definition and Development;Database,,
+Redis;App Definition and Development;Database,,
+RethinkDB;App Definition and Development;Database,,
+SAP HANA;App Definition and Development;Database,,
+Scalar DB;App Definition and Development;Database,,
+SchemaHero;App Definition and Development;Database,,
+Scylla;App Definition and Development;Database,,
+Seata;App Definition and Development;Database,,
+ShardingSphere;App Definition and Development;Database,,
+SingleStore;App Definition and Development;Database,,
+Snowflake;App Definition and Development;Database,,
+Software AG;App Definition and Development;Database,,
+SpiceDB;App Definition and Development;Database,,
+StarRocks;App Definition and Development;Database,,
+Stolon;App Definition and Development;Database,,
+Tarantool;App Definition and Development;Database,,
+TDengine;App Definition and Development;Database,,
+TiDB;App Definition and Development;Database,,
+TiKV;App Definition and Development;Database,,
+Timescale;App Definition and Development;Database,,
+Vertica;App Definition and Development;Database,,
+Vitess;App Definition and Development;Database,,
+VoltDB;App Definition and Development;Database,,
+Weaviate;App Definition and Development;Database,,
+YDB;App Definition and Development;Database,,
+Yellowbrick;App Definition and Development;Database,,
+YugabyteDB;App Definition and Development;Database,,
+Amazon Kinesis;App Definition and Development;Streaming & Messaging,,
+Apache Heron;App Definition and Development;Streaming & Messaging,,
+Apache NiFi;App Definition and Development;Streaming & Messaging,,
+Apache RocketMQ;App Definition and Development;Streaming & Messaging,,
+Apache Spark;App Definition and Development;Streaming & Messaging,,
+Apache Storm;App Definition and Development;Streaming & Messaging,,
+Apicurio Registry;App Definition and Development;Streaming & Messaging,,
+Azure Event Hubs;App Definition and Development;Streaming & Messaging,,
+Beam;App Definition and Development;Streaming & Messaging,,
+CDEvents;App Definition and Development;Streaming & Messaging,,
+CloudEvents;App Definition and Development;Streaming & Messaging,,
+deepstream;App Definition and Development;Streaming & Messaging,,
+EMQ Technologies;App Definition and Development;Streaming & Messaging,,
+Flink;App Definition and Development;Streaming & Messaging,,
+Fluvio;App Definition and Development;Streaming & Messaging,,
+Google Cloud Dataflow;App Definition and Development;Streaming & Messaging,,
+Hazelcast Jet;App Definition and Development;Streaming & Messaging,,
+Kafka;App Definition and Development;Streaming & Messaging,,
+Koperator;App Definition and Development;Streaming & Messaging,,
+KubeMQ;App Definition and Development;Streaming & Messaging,,
+Lightbend;App Definition and Development;Streaming & Messaging,,
+Memphis;App Definition and Development;Streaming & Messaging,,
+NATS;App Definition and Development;Streaming & Messaging,,
+OpenMessaging;App Definition and Development;Streaming & Messaging,,
+Pachyderm;App Definition and Development;Streaming & Messaging,,
+Pravega;App Definition and Development;Streaming & Messaging,,
+Pulsar;App Definition and Development;Streaming & Messaging,,
+RabbitMQ;App Definition and Development;Streaming & Messaging,,
+Redpanda;App Definition and Development;Streaming & Messaging,,
+SeaTunnel;App Definition and Development;Streaming & Messaging,,
+Siddhi;App Definition and Development;Streaming & Messaging,,
+StreamSets;App Definition and Development;Streaming & Messaging,,
+Strimzi;App Definition and Development;Streaming & Messaging,,
+Talend Data Streams;App Definition and Development;Streaming & Messaging,,
+Tremor;App Definition and Development;Streaming & Messaging,,
+Alibaba Cloud Serverless Workflow;App Definition and Development;Application Definition & Image Build,,
+Artifact Hub;App Definition and Development;Application Definition & Image Build,,
+Backstage;App Definition and Development;Application Definition & Image Build,,
+Buildpacks;App Definition and Development;Application Definition & Image Build,,
+Carvel;App Definition and Development;Application Definition & Image Build,,
+Chef Habitat;App Definition and Development;Application Definition & Image Build,,
+CloudARK KubePlus;App Definition and Development;Application Definition & Image Build,,
+CloudTTY;App Definition and Development;Application Definition & Image Build,,
+CodeZero;App Definition and Development;Application Definition & Image Build,,
+Dapr;App Definition and Development;Application Definition & Image Build,,
+DeployHub;App Definition and Development;Application Definition & Image Build,,
+Depot;App Definition and Development;Application Definition & Image Build,,
+Devfile;App Definition and Development;Application Definition & Image Build,,
+DevSpace;App Definition and Development;Application Definition & Image Build,,
+Docker Compose;App Definition and Development;Application Definition & Image Build,,
+Eclipse Che;App Definition and Development;Application Definition & Image Build,,
+Gefyra;App Definition and Development;Application Definition & Image Build,,
+Gitpod;App Definition and Development;Application Definition & Image Build,,
+Gradle Build Tool;App Definition and Development;Application Definition & Image Build,,
+Helm;App Definition and Development;Application Definition & Image Build,,
+itopia;App Definition and Development;Application Definition & Image Build,,
+kaniko;App Definition and Development;Application Definition & Image Build,,
+ko;App Definition and Development;Application Definition & Image Build,,
+Konveyor;App Definition and Development;Application Definition & Image Build,,
+KOTS;App Definition and Development;Application Definition & Image Build,,
+Krator;App Definition and Development;Application Definition & Image Build,,
+KubeCarrier;App Definition and Development;Application Definition & Image Build,,
+KubeOrbit;App Definition and Development;Application Definition & Image Build,,
+KubeVela;App Definition and Development;Application Definition & Image Build,,
+KubeVirt;App Definition and Development;Application Definition & Image Build,,
+KUDO;App Definition and Development;Application Definition & Image Build,,
+Kui;App Definition and Development;Application Definition & Image Build,,
+Lagoon;App Definition and Development;Application Definition & Image Build,,
+Mia-Platform;App Definition and Development;Application Definition & Image Build,,
+Microcks;App Definition and Development;Application Definition & Image Build,,
+mirrord;App Definition and Development;Application Definition & Image Build,,
+Monokle;App Definition and Development;Application Definition & Image Build,,
+Nocalhost;App Definition and Development;Application Definition & Image Build,,
+Okteto;App Definition and Development;Application Definition & Image Build,,
+On-Prem;App Definition and Development;Application Definition & Image Build,,
+Open Application Model;App Definition and Development;Application Definition & Image Build,,
+Open Service Broker API;App Definition and Development;Application Definition & Image Build,,
+OpenAPI;App Definition and Development;Application Definition & Image Build,,
+Operator Framework;App Definition and Development;Application Definition & Image Build,,
+Packer;App Definition and Development;Application Definition & Image Build,,
+Plural;App Definition and Development;Application Definition & Image Build,,
+Podman;App Definition and Development;Application Definition & Image Build,,
+Porter;App Definition and Development;Application Definition & Image Build,,
+Raftt;App Definition and Development;Application Definition & Image Build,,
+sealer;App Definition and Development;Application Definition & Image Build,,
+Serverless Workflow;App Definition and Development;Application Definition & Image Build,,
+ServiceComb;App Definition and Development;Application Definition & Image Build,,
+Shipwright;App Definition and Development;Application Definition & Image Build,,
+Skaffold;App Definition and Development;Application Definition & Image Build,,
+Squash;App Definition and Development;Application Definition & Image Build,,
+Tanka;App Definition and Development;Application Definition & Image Build,,
+Telepresence;App Definition and Development;Application Definition & Image Build,,
+Tilt;App Definition and Development;Application Definition & Image Build,,
+Visual Studio Code Kubernetes Tools;App Definition and Development;Application Definition & Image Build,,
+VMware Application Catalog;App Definition and Development;Application Definition & Image Build,,
+Agola;App Definition and Development;Continuous Integration & Delivery,,
+Akuity;App Definition and Development;Continuous Integration & Delivery,,
+Appveyor;App Definition and Development;Continuous Integration & Delivery,,
+Argo;App Definition and Development;Continuous Integration & Delivery,,
+AWS CodePipeline;App Definition and Development;Continuous Integration & Delivery,,
+Azure Pipelines;App Definition and Development;Continuous Integration & Delivery,,
+Bamboo;App Definition and Development;Continuous Integration & Delivery,,
+Brigade;App Definition and Development;Continuous Integration & Delivery,,
+Buildkite;App Definition and Development;Continuous Integration & Delivery,,
+Bunnyshell;App Definition and Development;Continuous Integration & Delivery,,
+Bytebase;App Definition and Development;Continuous Integration & Delivery,,
+CAEPE;App Definition and Development;Continuous Integration & Delivery,,
+Cartographer;App Definition and Development;Continuous Integration & Delivery,,
+CircleCI;App Definition and Development;Continuous Integration & Delivery,,
+Cloud 66 Skycap;App Definition and Development;Continuous Integration & Delivery,,
+Cloudbees Codeship;App Definition and Development;Continuous Integration & Delivery,,
+Codefresh;App Definition and Development;Continuous Integration & Delivery,,
+Concourse;App Definition and Development;Continuous Integration & Delivery,,
+D2iQ Dispatch;App Definition and Development;Continuous Integration & Delivery,,
+Devtron;App Definition and Development;Continuous Integration & Delivery,,
+Drone;App Definition and Development;Continuous Integration & Delivery,,
+Flagger;App Definition and Development;Continuous Integration & Delivery,,
+Flipt;App Definition and Development;Continuous Integration & Delivery,,
+Flux;App Definition and Development;Continuous Integration & Delivery,,
+GitHub Actions;App Definition and Development;Continuous Integration & Delivery,,
+GitLab;App Definition and Development;Continuous Integration & Delivery,,
+GoCD;App Definition and Development;Continuous Integration & Delivery,,
+Google Cloud Build;App Definition and Development;Continuous Integration & Delivery,,
+Harness.io;App Definition and Development;Continuous Integration & Delivery,,
+Helmwave;App Definition and Development;Continuous Integration & Delivery,,
+HyScale;App Definition and Development;Continuous Integration & Delivery,,
+Jenkins;App Definition and Development;Continuous Integration & Delivery,,
+JenkinsX;App Definition and Development;Continuous Integration & Delivery,,
+k6;App Definition and Development;Continuous Integration & Delivery,,
+Keploy;App Definition and Development;Continuous Integration & Delivery,,
+Keptn;App Definition and Development;Continuous Integration & Delivery,,
+Liquibase;App Definition and Development;Continuous Integration & Delivery,,
+Mergify;App Definition and Development;Continuous Integration & Delivery,,
+Northflank;App Definition and Development;Continuous Integration & Delivery,,
+Octopus Deploy;App Definition and Development;Continuous Integration & Delivery,,
+OpenFeature;App Definition and Development;Continuous Integration & Delivery,,
+OpenGitOps;App Definition and Development;Continuous Integration & Delivery,,
+OpenKruise;App Definition and Development;Continuous Integration & Delivery,,
+OpsMx;App Definition and Development;Continuous Integration & Delivery,,
+Ortelius;App Definition and Development;Continuous Integration & Delivery,,
+Ozone;App Definition and Development;Continuous Integration & Delivery,,
+PipeCD;App Definition and Development;Continuous Integration & Delivery,,
+Razee;App Definition and Development;Continuous Integration & Delivery,,
+Screwdriver;App Definition and Development;Continuous Integration & Delivery,,
+Semaphore;App Definition and Development;Continuous Integration & Delivery,,
+Spacelift;App Definition and Development;Continuous Integration & Delivery,,
+Spinnaker;App Definition and Development;Continuous Integration & Delivery,,
+TeamCity;App Definition and Development;Continuous Integration & Delivery,,
+Tekton Pipelines;App Definition and Development;Continuous Integration & Delivery,,
+Testkube;App Definition and Development;Continuous Integration & Delivery,,
+Travis CI;App Definition and Development;Continuous Integration & Delivery,,
+Unleash;App Definition and Development;Continuous Integration & Delivery,,
+Weave GitOps;App Definition and Development;Continuous Integration & Delivery,,
+werf;App Definition and Development;Continuous Integration & Delivery,,
+Woodpecker CI;App Definition and Development;Continuous Integration & Delivery,,
+XL Deploy;App Definition and Development;Continuous Integration & Delivery,,
+Accordion;Platform;Certified Kubernetes - Distribution,,
+AlviStack Ansible Collection for Kubernetes;Platform;Certified Kubernetes - Distribution,,
+Amazon Elastic Kubernetes Service Distro (Amazon EKS-D);Platform;Certified Kubernetes - Distribution,,
+ASUS Cloud Infra;Platform;Certified Kubernetes - Distribution,,
+BizKube;Platform;Certified Kubernetes - Distribution,,
+BoCloud BeyondContainer;Platform;Certified Kubernetes - Distribution,,
+BXCloud Platform;Platform;Certified Kubernetes - Distribution,,
+Canonical Charmed Kubernetes;Platform;Certified Kubernetes - Distribution,,
+CARS TaiChu;Platform;Certified Kubernetes - Distribution,,
+China Mobile CMIT PaaS;Platform;Certified Kubernetes - Distribution,,
+Cloudboostr;Platform;Certified Kubernetes - Distribution,,
+Cocktail Cloud;Platform;Certified Kubernetes - Distribution,,
+Constellation;Platform;Certified Kubernetes - Distribution,,
+D2iQ Konvoy;Platform;Certified Kubernetes - Distribution,,
+DaoCloud Enterprise;Platform;Certified Kubernetes - Distribution,,
+Desktop Kubernetes;Platform;Certified Kubernetes - Distribution,,
+Diamanti Kubernetes Engine;Platform;Certified Kubernetes - Distribution,,
+EasyStack Kubernetes Service (EKS);Platform;Certified Kubernetes - Distribution,,
+Elastisys Compliant Kubernetes;Platform;Certified Kubernetes - Distribution,,
+Ericsson Cloud Container Distribution;Platform;Certified Kubernetes - Distribution,,
+Flant Deckhouse;Platform;Certified Kubernetes - Distribution,,
+Fury Distribution;Platform;Certified Kubernetes - Distribution,,
+H3C CloudOS;Platform;Certified Kubernetes - Distribution,,
+HarmonyCloud Container Platform;Platform;Certified Kubernetes - Distribution,,
+HPE Ezmeral Runtime Enterprise;Platform;Certified Kubernetes - Distribution,,
+JD.com JDOS;Platform;Certified Kubernetes - Distribution,,
+K-PaaS Container Platform;Platform;Certified Kubernetes - Distribution,,
+k0s;Platform;Certified Kubernetes - Distribution,,
+k3s;Platform;Certified Kubernetes - Distribution,,
+Kamaji;Platform;Certified Kubernetes - Distribution,,
+KubeCube;Platform;Certified Kubernetes - Distribution,,
+Kubermatic Kubernetes Platform;Platform;Certified Kubernetes - Distribution,,
+KubeService Stack;Platform;Certified Kubernetes - Distribution,,
+Kubesphere;Platform;Certified Kubernetes - Distribution,,
+Kublr;Platform;Certified Kubernetes - Distribution,,
+kURL;Platform;Certified Kubernetes - Distribution,,
+Magellano;Platform;Certified Kubernetes - Distribution,,
+MicroK8s;Platform;Certified Kubernetes - Distribution,,
+Mirantis Kubernetes Engine;Platform;Certified Kubernetes - Distribution,,
+Netease Qingzhou Microservice;Platform;Certified Kubernetes - Distribution,,
+Oracle Cloud Native Environment;Platform;Certified Kubernetes - Distribution,,
+Platform9 Managed Kubernetes;Platform;Certified Kubernetes - Distribution,,
+QBO;Platform;Certified Kubernetes - Distribution,,
+Rancher Kubernetes;Platform;Certified Kubernetes - Distribution,,
+Red Hat OpenShift;Platform;Certified Kubernetes - Distribution,,
+RKE Government;Platform;Certified Kubernetes - Distribution,,
+Robin CNP;Platform;Certified Kubernetes - Distribution,,
+SECloudit;Platform;Certified Kubernetes - Distribution,,
+SmartX SMTX Kubernetes Service;Platform;Certified Kubernetes - Distribution,,
+TenxCloud Container Enterprise;Platform;Certified Kubernetes - Distribution,,
+Typhoon;Platform;Certified Kubernetes - Distribution,,
+vcluster;Platform;Certified Kubernetes - Distribution,,
+VMware Tanzu Kubernetes Grid;Platform;Certified Kubernetes - Distribution,,
+Whitestack WhiteMist;Platform;Certified Kubernetes - Distribution,,
+Wind River Studio Cloud Platform;Platform;Certified Kubernetes - Distribution,,
+Alibaba Cloud Container Service for Kubernetes;Platform;Certified Kubernetes - Hosted,,
+Amazon Elastic Container Service for Kubernetes (EKS);Platform;Certified Kubernetes - Hosted,,
+American Cloud Kubernetes Service (ACKS);Platform;Certified Kubernetes - Hosted,,
+ARDC Nectar Research Cloud Magnum Service;Platform;Certified Kubernetes - Hosted,,
+Azure Kubernetes Service (AKS);Platform;Certified Kubernetes - Hosted,,
+Baidu Cloud Container Engine;Platform;Certified Kubernetes - Hosted,,
+Bizmicro;Platform;Certified Kubernetes - Hosted,,
+Catalyst Kubernetes Service;Platform;Certified Kubernetes - Hosted,,
+China Mobile KCS;Platform;Certified Kubernetes - Hosted,,
+Civo Kubernetes;Platform;Certified Kubernetes - Hosted,,
+CloudLink;Platform;Certified Kubernetes - Hosted,,
+Conoa Proact Managed Container Platform;Platform;Certified Kubernetes - Hosted,,
+DigitalOcean Kubernetes;Platform;Certified Kubernetes - Hosted,,
+ELASTX Private Kubernetes;Platform;Certified Kubernetes - Hosted,,
+Exoscale Scalable Kubernetes Service;Platform;Certified Kubernetes - Hosted,,
+German Edge Cloud Kubernetes Services (GKS);Platform;Certified Kubernetes - Hosted,,
+Google Kubernetes Engine (GKE);Platform;Certified Kubernetes - Hosted,,
+Huawei Cloud Container Engine (CCE);Platform;Certified Kubernetes - Hosted,,
+IBM Cloud Kubernetes Service;Platform;Certified Kubernetes - Hosted,,
+InCloud OS;Platform;Certified Kubernetes - Hosted,,
+Inspur Cloud Native Platform;Platform;Certified Kubernetes - Hosted,,
+JD Cloud JCS for Kubernetes;Platform;Certified Kubernetes - Hosted,,
+KubeSphere®️ (QKE);Platform;Certified Kubernetes - Hosted,,
+Linode Kubernetes Engine;Platform;Certified Kubernetes - Hosted,,
+Microsoft AKS Engine for Azure Stack;Platform;Certified Kubernetes - Hosted,,
+NHN Kubernetes Service (NKS);Platform;Certified Kubernetes - Hosted,,
+Nirmata Managed Kubernetes;Platform;Certified Kubernetes - Hosted,,
+Nutanix Karbon;Platform;Certified Kubernetes - Hosted,,
+OKESTRO VIOLA;Platform;Certified Kubernetes - Hosted,,
+Oracle Container Engine;Platform;Certified Kubernetes - Hosted,,
+Orka;Platform;Certified Kubernetes - Hosted,,
+OVH Managed Kubernetes Service;Platform;Certified Kubernetes - Hosted,,
+plusserver Kubernetes Engine (PSKE);Platform;Certified Kubernetes - Hosted,,
+Rafay;Platform;Certified Kubernetes - Hosted,,
+Red Hat OpenShift Dedicated;Platform;Certified Kubernetes - Hosted,,
+Red Hat OpenShift on IBM Cloud;Platform;Certified Kubernetes - Hosted,,
+Ridge Kubernetes Service;Platform;Certified Kubernetes - Hosted,,
+Samsung Kubernetes Engine (SKE);Platform;Certified Kubernetes - Hosted,,
+SAP Certified Gardener;Platform;Certified Kubernetes - Hosted,,
+Scaleway Kubernetes Kapsule;Platform;Certified Kubernetes - Hosted,,
+STACKIT Kubernetes Engine;Platform;Certified Kubernetes - Hosted,,
+StarlingX;Platform;Certified Kubernetes - Hosted,,
+SysEleven MetaKube;Platform;Certified Kubernetes - Hosted,,
+Taikun;Platform;Certified Kubernetes - Hosted,,
+Tencent Kubernetes Engine (TKE);Platform;Certified Kubernetes - Hosted,,
+Volcengine Kubernetes Engine (VKE);Platform;Certified Kubernetes - Hosted,,
+Vultr Kubernetes Engine;Platform;Certified Kubernetes - Hosted,,
+Wavestack Kubernetes Engine (WKE);Platform;Certified Kubernetes - Hosted,,
+ZStack Edge;Platform;Certified Kubernetes - Hosted,,
+ZTE TECS OpenPalette;Platform;Certified Kubernetes - Hosted,,
+AlviStack Vagrant Box Packaging for Kubernetes;Platform;Certified Kubernetes - Installer,,
+Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere);Platform;Certified Kubernetes - Installer,,
+Cybozu Kubernetes Engine;Platform;Certified Kubernetes - Installer,,
+Gardener;Platform;Certified Kubernetes - Installer,,
+Harmonycloud PaaS Container Platform Install;Platform;Certified Kubernetes - Installer,,
+kind;Platform;Certified Kubernetes - Installer,,
+Kubean;Platform;Certified Kubernetes - Installer,,
+Kubeasz;Platform;Certified Kubernetes - Installer,,
+KubeClipper;Platform;Certified Kubernetes - Installer,,
+Kubekey;Platform;Certified Kubernetes - Installer,,
+KubeOps;Platform;Certified Kubernetes - Installer,,
+Kubermatic KubeOne;Platform;Certified Kubernetes - Installer,,
+Kubernetes - The Easier Way;Platform;Certified Kubernetes - Installer,,
+Kubespray;Platform;Certified Kubernetes - Installer,,
+kwok;Platform;Certified Kubernetes - Installer,,
+minikube;Platform;Certified Kubernetes - Installer,,
+MoreSec Shangfu;Platform;Certified Kubernetes - Installer,,
+OpenNebula Kubernetes Engine;Platform;Certified Kubernetes - Installer,,
+puppetlabs-kubernetes;Platform;Certified Kubernetes - Installer,,
+Rancher Kubernetes Engine (RKE);Platform;Certified Kubernetes - Installer,,
+Sidero Talos Linux;Platform;Certified Kubernetes - Installer,,
+Weave GitOps Enterprise;Platform;Certified Kubernetes - Installer,,
+Akka;Platform;PaaS/Container Service,,
+Atomist;Platform;PaaS/Container Service,,
+Choreo;Platform;PaaS/Container Service,,
+Clever Cloud;Platform;PaaS/Container Service,,
+Cloud Foundry Application Runtime;Platform;PaaS/Container Service,,
+Heroku;Platform;PaaS/Container Service,,
+JHipster;Platform;PaaS/Container Service,,
+Kubero;Platform;PaaS/Container Service,,
+Kyma;Platform;PaaS/Container Service,,
+No Code;Platform;PaaS/Container Service,,
+Otomi;Platform;PaaS/Container Service,,
+PaaSTA;Platform;PaaS/Container Service,,
+Platform.sh;Platform;PaaS/Container Service,,
+Portainer;Platform;PaaS/Container Service,,
+Rio;Platform;PaaS/Container Service,,
+Salad;Platform;PaaS/Container Service,,
+Scalingo;Platform;PaaS/Container Service,,
+Sogou C++ Workflow;Platform;PaaS/Container Service,,
+Tsuru;Platform;PaaS/Container Service,,
+YellowDog;Platform;PaaS/Container Service,,
+Prisma Cloud by Palo Alto Networks;Serverless;Security,,
+Protego;Serverless;Security,,
+Threat Stack;Serverless;Security,,
+Cloud Native Landscape;Serverless;Tools,,
+Dashbird;Serverless;Tools,,
+Hasura GraphQL Engine;Serverless;Tools,,
+Lumigo;Serverless;Tools,,
+Node Lambda;Serverless;Tools,,
+SCAR;Serverless;Tools,,
+Serverless Devs (Serverless);Serverless;Tools,,
+Sigma;Serverless;Tools,,
+Stackery;Serverless;Tools,,
+Thundra;Serverless;Tools,,
+Architect;Serverless;Framework,,
+AWS Server Application Model (SAM);Serverless;Framework,,
+Chalice;Serverless;Framework,,
+Dapr (Serverless);Serverless;Framework,,
+Encore;Serverless;Framework,,
+EventMesh;Serverless;Framework,,
+Flogo;Serverless;Framework,,
+Layotto;Serverless;Framework,,
+Midway Serverless;Serverless;Framework,,
+Nitric;Serverless;Framework,,
+Serverless;Serverless;Framework,,
+Sparta;Serverless;Framework,,
+Spring Cloud Function;Serverless;Framework,,
+SST;Serverless;Framework,,
+Stateful Functions;Serverless;Framework,,
+Webiny;Serverless;Framework,,
+Algorithmia;Serverless;Hosted Platform,,
+Alibaba Cloud Function Compute;Serverless;Hosted Platform,,
+Alibaba Cloud Serverless App Engine;Serverless;Hosted Platform,,
+AWS Lambda;Serverless;Hosted Platform,,
+Azure Functions;Serverless;Hosted Platform,,
+Baidu Cloud Function Compute;Serverless;Hosted Platform,,
+Cloudflare Workers;Serverless;Hosted Platform,,
+Google Cloud Functions;Serverless;Hosted Platform,,
+Google Cloud Run;Serverless;Hosted Platform,,
+Huawei FunctionStage;Serverless;Hosted Platform,,
+IBM Cloud Code Engine;Serverless;Hosted Platform,,
+IBM Cloud Functions;Serverless;Hosted Platform,,
+Koyeb;Serverless;Hosted Platform,,
+Netlify Functions;Serverless;Hosted Platform,,
+Nimbella;Serverless;Hosted Platform,,
+Nuweba;Serverless;Hosted Platform,,
+Oracle Functions;Serverless;Hosted Platform,,
+PubNub Functions;Serverless;Hosted Platform,,
+Second State Functions;Serverless;Hosted Platform,,
+Standard Library;Serverless;Hosted Platform,,
+Tencent Cloud Serverless Cloud Function;Serverless;Hosted Platform,,
+Twilio Functions;Serverless;Hosted Platform,,
+Vercel;Serverless;Hosted Platform,,
+Apache Camel K;Serverless;Installable Platform,,
+Apache OpenWhisk;Serverless;Installable Platform,,
+AppScale;Serverless;Installable Platform,,
+Direktiv;Serverless;Installable Platform,,
+Fission;Serverless;Installable Platform,,
+KEDA (Serverless);Serverless;Installable Platform,,
+Knative (Serverless);Serverless;Installable Platform,,
+Knix;Serverless;Installable Platform,,
+Kubeless;Serverless;Installable Platform,,
+Nuclio;Serverless;Installable Platform,,
+OpenFaaS;Serverless;Installable Platform,,
+OpenFunction (Serverless);Serverless;Installable Platform,,
+PipelineAI;Serverless;Installable Platform,,
+Virtual Kubelet (Serverless);Serverless;Installable Platform,,
+Alibaba Cloud Application Real-Time Service;Observability and Analysis;Monitoring,,
+Amazon CloudWatch;Observability and Analysis;Monitoring,,
+AppDynamics;Observability and Analysis;Monitoring,,
+Application High Availability Service;Observability and Analysis;Monitoring,,
+Applications Manager;Observability and Analysis;Monitoring,,
+AppNeta;Observability and Analysis;Monitoring,,
+AppOptics;Observability and Analysis;Monitoring,,
+AppSignal;Observability and Analysis;Monitoring,,
+Aternity;Observability and Analysis;Monitoring,,
+Azure Monitor;Observability and Analysis;Monitoring,,
+Beats;Observability and Analysis;Monitoring,,
+Blue Matador;Observability and Analysis;Monitoring,,
+Botkube;Observability and Analysis;Monitoring,,
+Catchpoint;Observability and Analysis;Monitoring,,
+Centreon;Observability and Analysis;Monitoring,,
+Checkmk;Observability and Analysis;Monitoring,,
+Chronosphere;Observability and Analysis;Monitoring,,
+Cloudwise Synthetic Monitoring;Observability and Analysis;Monitoring,,
+Cortex;Observability and Analysis;Monitoring,,
+Datadog;Observability and Analysis;Monitoring,,
+DeepFlow;Observability and Analysis;Monitoring,,
+Dynatrace;Observability and Analysis;Monitoring,,
+Epsagon;Observability and Analysis;Monitoring,,
+Falcon;Observability and Analysis;Monitoring,,
+Flowmill;Observability and Analysis;Monitoring,,
+Fonio;Observability and Analysis;Monitoring,,
+Foresight;Observability and Analysis;Monitoring,,
+Google Stackdriver;Observability and Analysis;Monitoring,,
+Gradle Enterprise;Observability and Analysis;Monitoring,,
+Grafana;Observability and Analysis;Monitoring,,
+Grafana Mimir;Observability and Analysis;Monitoring,,
+Grafana Phlare;Observability and Analysis;Monitoring,,
+Graphite;Observability and Analysis;Monitoring,,
+Guance Cloud;Observability and Analysis;Monitoring,,
+Headlamp;Observability and Analysis;Monitoring,,
+Honeybadger;Observability and Analysis;Monitoring,,
+Hubble;Observability and Analysis;Monitoring,,
+Icinga;Observability and Analysis;Monitoring,,
+InfluxData;Observability and Analysis;Monitoring,,
+Inspektor Gadget;Observability and Analysis;Monitoring,,
+Instana;Observability and Analysis;Monitoring,,
+IronDB;Observability and Analysis;Monitoring,,
+K8sGPT;Observability and Analysis;Monitoring,,
+Kepler;Observability and Analysis;Monitoring,,
+Kiali;Observability and Analysis;Monitoring,,
+Kuberhealthy;Observability and Analysis;Monitoring,,
+Last9;Observability and Analysis;Monitoring,,
+LeanIX Value Stream Management (VSM);Observability and Analysis;Monitoring,,
+LinDB;Observability and Analysis;Monitoring,,
+LogicMonitor;Observability and Analysis;Monitoring,,
+Logz.io;Observability and Analysis;Monitoring,,
+M3;Observability and Analysis;Monitoring,,
+Mackerel;Observability and Analysis;Monitoring,,
+Micrometer;Observability and Analysis;Monitoring,,
+Nagios;Observability and Analysis;Monitoring,,
+Netdata;Observability and Analysis;Monitoring,,
+Netis;Observability and Analysis;Monitoring,,
+New Relic;Observability and Analysis;Monitoring,,
+NexClipper;Observability and Analysis;Monitoring,,
+Nightingale;Observability and Analysis;Monitoring,,
+NodeSource;Observability and Analysis;Monitoring,,
+OpenMetrics;Observability and Analysis;Monitoring,,
+OpenTSDB;Observability and Analysis;Monitoring,,
+Opstrace;Observability and Analysis;Monitoring,,
+OverOps;Observability and Analysis;Monitoring,,
+Pixie;Observability and Analysis;Monitoring,,
+Prometheus;Observability and Analysis;Monitoring,,
+Promscale;Observability and Analysis;Monitoring,,
+Replex;Observability and Analysis;Monitoring,,
+Rookout;Observability and Analysis;Monitoring,,
+Sensu;Observability and Analysis;Monitoring,,
+Sentry;Observability and Analysis;Monitoring,,
+Sidekick;Observability and Analysis;Monitoring,,
+SignalFX;Observability and Analysis;Monitoring,,
+Skooner;Observability and Analysis;Monitoring,,
+Sosivio;Observability and Analysis;Monitoring,,
+StackState;Observability and Analysis;Monitoring,,
+sysdig;Observability and Analysis;Monitoring,,
+Thanos;Observability and Analysis;Monitoring,,
+Tingyun;Observability and Analysis;Monitoring,,
+TRaaS BOS;Observability and Analysis;Monitoring,,
+Trickster;Observability and Analysis;Monitoring,,
+Vector;Observability and Analysis;Monitoring,,
+VictoriaMetrics;Observability and Analysis;Monitoring,,
+Virtasant;Observability and Analysis;Monitoring,,
+VMware Aria Operations for Applications;Observability and Analysis;Monitoring,,
+VMware Tanzu CloudHealth;Observability and Analysis;Monitoring,,
+Weave Scope;Observability and Analysis;Monitoring,,
+WhaTap;Observability and Analysis;Monitoring,,
+Zabbix;Observability and Analysis;Monitoring,,
+Alibaba Cloud Log Service;Observability and Analysis;Logging,,
+DataSet;Observability and Analysis;Logging,,
+Elastic;Observability and Analysis;Logging,,
+Fluentd;Observability and Analysis;Logging,,
+Grafana Loki;Observability and Analysis;Logging,,
+Graylog;Observability and Analysis;Logging,,
+Humio;Observability and Analysis;Logging,,
+Loggie;Observability and Analysis;Logging,,
+Loggly;Observability and Analysis;Logging,,
+Logiq;Observability and Analysis;Logging,,
+Logstash;Observability and Analysis;Logging,,
+Mezmo;Observability and Analysis;Logging,,
+OpenSearch;Observability and Analysis;Logging,,
+Pandora2.0;Observability and Analysis;Logging,,
+Parseable;Observability and Analysis;Logging,,
+Rizhiyi;Observability and Analysis;Logging,,
+Sematext;Observability and Analysis;Logging,,
+Splunk;Observability and Analysis;Logging,,
+Sumo Logic;Observability and Analysis;Logging,,
+Tencent Cloud Log Service;Observability and Analysis;Logging,,
+Trink.io;Observability and Analysis;Logging,,
+Aspecto;Observability and Analysis;Tracing,,
+EaseAgent;Observability and Analysis;Tracing,,
+Elastic APM;Observability and Analysis;Tracing,,
+Grafana Tempo;Observability and Analysis;Tracing,,
+Helios;Observability and Analysis;Tracing,,
+Honeycomb;Observability and Analysis;Tracing,,
+Jaeger;Observability and Analysis;Tracing,,
+LightStep;Observability and Analysis;Tracing,,
+OpenTelemetry;Observability and Analysis;Tracing,,
+OpenTracing;Observability and Analysis;Tracing,,
+Pinpoint;Observability and Analysis;Tracing,,
+SkyWalking;Observability and Analysis;Tracing,,
+SOFATracer;Observability and Analysis;Tracing,,
+Spring Cloud Sleuth;Observability and Analysis;Tracing,,
+TelemetryHub by Scout APM;Observability and Analysis;Tracing,,
+Teletrace;Observability and Analysis;Tracing,,
+Tracetest;Observability and Analysis;Tracing,,
+Zipkin;Observability and Analysis;Tracing,,
+Chaos Mesh;Observability and Analysis;Chaos Engineering,,
+Chaos Toolkit;Observability and Analysis;Chaos Engineering,,
+Chaosblade;Observability and Analysis;Chaos Engineering,,
+chaoskube;Observability and Analysis;Chaos Engineering,,
+Gremlin;Observability and Analysis;Chaos Engineering,,
+Litmus;Observability and Analysis;Chaos Engineering,,
+PowerfulSeal;Observability and Analysis;Chaos Engineering,,
+steadybit;Observability and Analysis;Chaos Engineering,,
+TRaaS CHAOS;Observability and Analysis;Chaos Engineering,,
+BMC Helix;Observability and Analysis;Continuous Optimization,,
+cast.ai;Observability and Analysis;Continuous Optimization,,
+CloudZero;Observability and Analysis;Continuous Optimization,,
+Densify;Observability and Analysis;Continuous Optimization,,
+gocrane;Observability and Analysis;Continuous Optimization,,
+Granulate;Observability and Analysis;Continuous Optimization,,
+Infracost;Observability and Analysis;Continuous Optimization,,
+Kubecost;Observability and Analysis;Continuous Optimization,,
+mPLAT;Observability and Analysis;Continuous Optimization,,
+OpenCost;Observability and Analysis;Continuous Optimization,,
+Opsani;Observability and Analysis;Continuous Optimization,,
+PerfectScale;Observability and Analysis;Continuous Optimization,,
+ScaleOps;Observability and Analysis;Continuous Optimization,,
+Sedai;Observability and Analysis;Continuous Optimization,,
+Spot.io;Observability and Analysis;Continuous Optimization,,
+StormForge;Observability and Analysis;Continuous Optimization,,
+TRaaS HAS;Observability and Analysis;Continuous Optimization,,
+Turbonomic;Observability and Analysis;Continuous Optimization,,
+vamp.io;Observability and Analysis;Continuous Optimization,,
+Zesty;Observability and Analysis;Continuous Optimization,,
+1Crew (KCSP);Special;Kubernetes Certified Service Provider,,
+3-Shake (KCSP);Special;Kubernetes Certified Service Provider,,
+99Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+ACC ICT (KCSP);Special;Kubernetes Certified Service Provider,,
+acend (KCSP);Special;Kubernetes Certified Service Provider,,
+Acornsoft (KCSP);Special;Kubernetes Certified Service Provider,,
+Adfolks (KCSP);Special;Kubernetes Certified Service Provider,,
+AgileOps (KCSP);Special;Kubernetes Certified Service Provider,,
+Alauda (KCSP);Special;Kubernetes Certified Service Provider,,
+Alerant (KCSP);Special;Kubernetes Certified Service Provider,,
+Alibaba Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Alter Way (KCSP);Special;Kubernetes Certified Service Provider,,
+amazee.io (KCSP);Special;Kubernetes Certified Service Provider,,
+Ambient IT (KCSP);Special;Kubernetes Certified Service Provider,,
+Andes Digital (KCSP);Special;Kubernetes Certified Service Provider,,
+Aokumo (KCSP);Special;Kubernetes Certified Service Provider,,
+Appddiction Studio (KCSP);Special;Kubernetes Certified Service Provider,,
+Appstellar (KCSP);Special;Kubernetes Certified Service Provider,,
+Appvia (KCSP);Special;Kubernetes Certified Service Provider,,
+Aqua Security (KCSP);Special;Kubernetes Certified Service Provider,,
+ArcherOS (KCSP);Special;Kubernetes Certified Service Provider,,
+ARDC (KCSP);Special;Kubernetes Certified Service Provider,,
+Aspen Mesh (KCSP);Special;Kubernetes Certified Service Provider,,
+ATIX (KCSP);Special;Kubernetes Certified Service Provider,,
+Avisi (KCSP);Special;Kubernetes Certified Service Provider,,
+b-nova (KCSP);Special;Kubernetes Certified Service Provider,,
+B1 Systems (KCSP);Special;Kubernetes Certified Service Provider,,
+Baidu (KCSP);Special;Kubernetes Certified Service Provider,,
+Banzai Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+BC Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+BESSYSTEM - Beijing Baolande Software Corporation (KCSP);Special;Kubernetes Certified Service Provider,,
+BlakYaks (KCSP);Special;Kubernetes Certified Service Provider,,
+Blue Sentry (KCSP);Special;Kubernetes Certified Service Provider,,
+BoCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Booz Allen Hamilton (KCSP);Special;Kubernetes Certified Service Provider,,
+BoxBoat (KCSP);Special;Kubernetes Certified Service Provider,,
+Brobridge (KCSP);Special;Kubernetes Certified Service Provider,,
+ByteSource (KCSP);Special;Kubernetes Certified Service Provider,,
+Camptocamp (KCSP);Special;Kubernetes Certified Service Provider,,
+Canonical (KCSP);Special;Kubernetes Certified Service Provider,,
+CARS - China Academy of Railway Sciences (KCSP);Special;Kubernetes Certified Service Provider,,
+Catalyst Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Caylent (KCSP);Special;Kubernetes Certified Service Provider,,
+China Mobile (KCSP);Special;Kubernetes Certified Service Provider,,
+China Systems (KCSP);Special;Kubernetes Certified Service Provider,,
+CINQ (KCSP);Special;Kubernetes Certified Service Provider,,
+Cisel Informatique (KCSP);Special;Kubernetes Certified Service Provider,,
+Claion (KCSP);Special;Kubernetes Certified Service Provider,,
+Cloud Ace (KCSP);Special;Kubernetes Certified Service Provider,,
+CloudCover (KCSP);Special;Kubernetes Certified Service Provider,,
+CloudGeometry (KCSP);Special;Kubernetes Certified Service Provider,,
+Cloudical (KCSP);Special;Kubernetes Certified Service Provider,,
+CloudOps (KCSP);Special;Kubernetes Certified Service Provider,,
+Cloudreach (KCSP);Special;Kubernetes Certified Service Provider,,
+Component Soft (KCSP);Special;Kubernetes Certified Service Provider,,
+Conoa (KCSP);Special;Kubernetes Certified Service Provider,,
+Container Solutions (KCSP);Special;Kubernetes Certified Service Provider,,
+ControlPlane (KCSP);Special;Kubernetes Certified Service Provider,,
+Core 24/7 (KCSP);Special;Kubernetes Certified Service Provider,,
+Coredge (KCSP);Special;Kubernetes Certified Service Provider,,
+CoreHive Computing (KCSP);Special;Kubernetes Certified Service Provider,,
+Creationline (KCSP);Special;Kubernetes Certified Service Provider,,
+Cuegee (KCSP);Special;Kubernetes Certified Service Provider,,
+Cuemby (KCSP);Special;Kubernetes Certified Service Provider,,
+D2iQ (KCSP);Special;Kubernetes Certified Service Provider,,
+Daekyo CNS (KCSP);Special;Kubernetes Certified Service Provider,,
+DaoCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+DataCore (KCSP);Special;Kubernetes Certified Service Provider,,
+Datadrivers (KCSP);Special;Kubernetes Certified Service Provider,,
+Deepshore (KCSP);Special;Kubernetes Certified Service Provider,,
+Dell Technologies Consulting (KCSP);Special;Kubernetes Certified Service Provider,,
+Deloitte (KCSP);Special;Kubernetes Certified Service Provider,,
+Desotech (KCSP);Special;Kubernetes Certified Service Provider,,
+DevsOperative (KCSP);Special;Kubernetes Certified Service Provider,,
+DGi (KCSP);Special;Kubernetes Certified Service Provider,,
+Diamanti (KCSP);Special;Kubernetes Certified Service Provider,,
+Didim365 (KCSP);Special;Kubernetes Certified Service Provider,,
+Digital China (KCSP);Special;Kubernetes Certified Service Provider,,
+DoiT (KCSP);Special;Kubernetes Certified Service Provider,,
+EasyStack (KCSP);Special;Kubernetes Certified Service Provider,,
+EdgeRay (KCSP);Special;Kubernetes Certified Service Provider,,
+Elastisys (KCSP);Special;Kubernetes Certified Service Provider,,
+ELASTX (KCSP);Special;Kubernetes Certified Service Provider,,
+Entigo (KCSP);Special;Kubernetes Certified Service Provider,,
+Evolvere Technologies (KCSP);Special;Kubernetes Certified Service Provider,,
+Evonem (KCSP);Special;Kubernetes Certified Service Provider,,
+Expert Thinking (KCSP);Special;Kubernetes Certified Service Provider,,
+Fairwinds (KCSP);Special;Kubernetes Certified Service Provider,,
+Flanksource (KCSP);Special;Kubernetes Certified Service Provider,,
+Flant (KCSP);Special;Kubernetes Certified Service Provider,,
+Fournine Cloud Solutions (KCSP);Special;Kubernetes Certified Service Provider,,
+Fujitsu (KCSP);Special;Kubernetes Certified Service Provider,,
+FullStackS (KCSP);Special;Kubernetes Certified Service Provider,,
+Fullstaq (KCSP);Special;Kubernetes Certified Service Provider,,
+Gaia (KCSP);Special;Kubernetes Certified Service Provider,,
+German Edge Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Giant Swarm (KCSP);Special;Kubernetes Certified Service Provider,,
+GienTech (KCSP);Special;Kubernetes Certified Service Provider,,
+GitLab (KCSP);Special;Kubernetes Certified Service Provider,,
+Grape Up (KCSP);Special;Kubernetes Certified Service Provider,,
+Guida (KCSP);Special;Kubernetes Certified Service Provider,,
+HarmonyCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+HCL Technologies (KCSP);Special;Kubernetes Certified Service Provider,,
+Hostersi (KCSP);Special;Kubernetes Certified Service Provider,,
+HPE (KCSP);Special;Kubernetes Certified Service Provider,,
+Huawei (KCSP);Special;Kubernetes Certified Service Provider,,
+IBM Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+IITS Consulting (KCSP);Special;Kubernetes Certified Service Provider,,
+ILKI (KCSP);Special;Kubernetes Certified Service Provider,,
+InfraCloud Technologies (KCSP);Special;Kubernetes Certified Service Provider,,
+initializ™ (KCSP);Special;Kubernetes Certified Service Provider,,
+Innogrid (KCSP);Special;Kubernetes Certified Service Provider,,
+inovex (KCSP);Special;Kubernetes Certified Service Provider,,
+Inspur (KCSP);Special;Kubernetes Certified Service Provider,,
+iSoftStone (KCSP);Special;Kubernetes Certified Service Provider,,
+JD Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Jetstack (KCSP);Special;Kubernetes Certified Service Provider,,
+KBSYS (KCSP);Special;Kubernetes Certified Service Provider,,
+KINX (KCSP);Special;Kubernetes Certified Service Provider,,
+Kiratech (KCSP);Special;Kubernetes Certified Service Provider,,
+kloia (KCSP);Special;Kubernetes Certified Service Provider,,
+KodeKloud (KCSP);Special;Kubernetes Certified Service Provider,,
+kt NexR (KCSP);Special;Kubernetes Certified Service Provider,,
+KubeOps (KCSP);Special;Kubernetes Certified Service Provider,,
+Kuberix (KCSP);Special;Kubernetes Certified Service Provider,,
+Kubermatic (KCSP);Special;Kubernetes Certified Service Provider,,
+Kubevisor (KCSP);Special;Kubernetes Certified Service Provider,,
+Kublr (KCSP);Special;Kubernetes Certified Service Provider,,
+Kumina (KCSP);Special;Kubernetes Certified Service Provider,,
+Lenovo (KCSP);Special;Kubernetes Certified Service Provider,,
+Linklogis (KCSP);Special;Kubernetes Certified Service Provider,,
+Liquid Reply (KCSP);Special;Kubernetes Certified Service Provider,,
+LSD Open (KCSP);Special;Kubernetes Certified Service Provider,,
+LTI (KCSP);Special;Kubernetes Certified Service Provider,,
+MakinaRocks (KCSP);Special;Kubernetes Certified Service Provider,,
+Mandao Fintech (KCSP);Special;Kubernetes Certified Service Provider,,
+ManTech (KCSP);Special;Kubernetes Certified Service Provider,,
+Materna (KCSP);Special;Kubernetes Certified Service Provider,,
+Mia-Platform (KCSP);Special;Kubernetes Certified Service Provider,,
+MiaoYun (KCSP);Special;Kubernetes Certified Service Provider,,
+Microsoft (KCSP);Special;Kubernetes Certified Service Provider,,
+Mirantis (KCSP);Special;Kubernetes Certified Service Provider,,
+MSys Technologies (KCSP);Special;Kubernetes Certified Service Provider,,
+Namutech (KCSP);Special;Kubernetes Certified Service Provider,,
+NEC (KCSP);Special;Kubernetes Certified Service Provider,,
+NetApp (KCSP);Special;Kubernetes Certified Service Provider,,
+Netease (KCSP);Special;Kubernetes Certified Service Provider,,
+NHN Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Nirmata (KCSP);Special;Kubernetes Certified Service Provider,,
+NTT DATA Group (KCSP);Special;Kubernetes Certified Service Provider,,
+Nuvotex (KCSP);Special;Kubernetes Certified Service Provider,,
+OBSS (KCSP);Special;Kubernetes Certified Service Provider,,
+Occentus (KCSP);Special;Kubernetes Certified Service Provider,,
+Octo Consulting (KCSP);Special;Kubernetes Certified Service Provider,,
+OGIS-RI (KCSP);Special;Kubernetes Certified Service Provider,,
+OKESTRO (KCSP);Special;Kubernetes Certified Service Provider,,
+OnGres (KCSP);Special;Kubernetes Certified Service Provider,,
+Open Source Consulting (KCSP);Special;Kubernetes Certified Service Provider,,
+Origoss Solutions (KCSP);Special;Kubernetes Certified Service Provider,,
+Oteemo (KCSP);Special;Kubernetes Certified Service Provider,,
+OVHcloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Ozone (KCSP);Special;Kubernetes Certified Service Provider,,
+Platform9 (KCSP);Special;Kubernetes Certified Service Provider,,
+plusserver (KCSP);Special;Kubernetes Certified Service Provider,,
+Polar Squad (KCSP);Special;Kubernetes Certified Service Provider,,
+Portworx (KCSP);Special;Kubernetes Certified Service Provider,,
+Prisma Cloud by Palo Alto Networks (KCSP);Special;Kubernetes Certified Service Provider,,
+PRODYNA (KCSP);Special;Kubernetes Certified Service Provider,,
+Profisea (KCSP);Special;Kubernetes Certified Service Provider,,
+Puzzle ITC (KCSP);Special;Kubernetes Certified Service Provider,,
+Qiming (KCSP);Special;Kubernetes Certified Service Provider,,
+QingCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Rackner (KCSP);Special;Kubernetes Certified Service Provider,,
+Rafay (KCSP);Special;Kubernetes Certified Service Provider,,
+Raft (KCSP);Special;Kubernetes Certified Service Provider,,
+Red Kubes (KCSP);Special;Kubernetes Certified Service Provider,,
+Redeploy (KCSP);Special;Kubernetes Certified Service Provider,,
+RNG Technology (KCSP);Special;Kubernetes Certified Service Provider,,
+RX-M (KCSP);Special;Kubernetes Certified Service Provider,,
+SAIC (KCSP);Special;Kubernetes Certified Service Provider,,
+saltware (KCSP);Special;Kubernetes Certified Service Provider,,
+Samsung SDS (KCSP);Special;Kubernetes Certified Service Provider,,
+SAP (KCSP);Special;Kubernetes Certified Service Provider,,
+servicememe (KCSP);Special;Kubernetes Certified Service Provider,,
+Services4-IT (KCSP);Special;Kubernetes Certified Service Provider,,
+Shanghai HFtech (KCSP);Special;Kubernetes Certified Service Provider,,
+Shinesoft (KCSP);Special;Kubernetes Certified Service Provider,,
+SIGHUP (KCSP);Special;Kubernetes Certified Service Provider,,
+Skyloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Smartiful (KCSP);Special;Kubernetes Certified Service Provider,,
+SoKube (KCSP);Special;Kubernetes Certified Service Provider,,
+SparkFabrik (KCSP);Special;Kubernetes Certified Service Provider,,
+Spectro Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+Speedyrails (KCSP);Special;Kubernetes Certified Service Provider,,
+SQUER (KCSP);Special;Kubernetes Certified Service Provider,,
+stack.io (KCSP);Special;Kubernetes Certified Service Provider,,
+stackgenie (KCSP);Special;Kubernetes Certified Service Provider,,
+Steamhaus (KCSP);Special;Kubernetes Certified Service Provider,,
+Storm Reply (KCSP);Special;Kubernetes Certified Service Provider,,
+StormForge (KCSP);Special;Kubernetes Certified Service Provider,,
+Stratox (KCSP);Special;Kubernetes Certified Service Provider,,
+Sup-info Information Technology (KCSP);Special;Kubernetes Certified Service Provider,,
+SuperOrbital (KCSP);Special;Kubernetes Certified Service Provider,,
+SUSE (KCSP);Special;Kubernetes Certified Service Provider,,
+SVA (KCSP);Special;Kubernetes Certified Service Provider,,
+Swisscom Kubernetes Service (KCSP);Special;Kubernetes Certified Service Provider,,
+Sysdig (KCSP);Special;Kubernetes Certified Service Provider,,
+SysEleven (KCSP);Special;Kubernetes Certified Service Provider,,
+T-Systems (KCSP);Special;Kubernetes Certified Service Provider,,
+Teleport (KCSP);Special;Kubernetes Certified Service Provider,,
+Tencent Cloud (KCSP);Special;Kubernetes Certified Service Provider,,
+TenxCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+TeraSky (KCSP);Special;Kubernetes Certified Service Provider,,
+teutoStack (KCSP);Special;Kubernetes Certified Service Provider,,
+The Scale Factory (KCSP);Special;Kubernetes Certified Service Provider,,
+Tigera (KCSP);Special;Kubernetes Certified Service Provider,,
+TL Consulting Group (KCSP);Special;Kubernetes Certified Service Provider,,
+TmaxCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+TongTech (KCSP);Special;Kubernetes Certified Service Provider,,
+TraceRoute42 (KCSP);Special;Kubernetes Certified Service Provider,,
+Transwarp (KCSP);Special;Kubernetes Certified Service Provider,,
+True (KCSP);Special;Kubernetes Certified Service Provider,,
+UMB (KCSP);Special;Kubernetes Certified Service Provider,,
+VA Linux Systems Japan (KCSP);Special;Kubernetes Certified Service Provider,,
+VMware (KCSP);Special;Kubernetes Certified Service Provider,,
+Volcano Engine (KCSP);Special;Kubernetes Certified Service Provider,,
+VSHN AG (KCSP);Special;Kubernetes Certified Service Provider,,
+Weaveworks (KCSP);Special;Kubernetes Certified Service Provider,,
+WeScale (KCSP);Special;Kubernetes Certified Service Provider,,
+WhaTap (KCSP);Special;Kubernetes Certified Service Provider,,
+WhizUs (KCSP);Special;Kubernetes Certified Service Provider,,
+Wise2C (KCSP);Special;Kubernetes Certified Service Provider,,
+WoCloud (KCSP);Special;Kubernetes Certified Service Provider,,
+WOQU Tech (KCSP);Special;Kubernetes Certified Service Provider,,
+Wowjoy Technology (KCSP);Special;Kubernetes Certified Service Provider,,
+WSO2 (KCSP);Special;Kubernetes Certified Service Provider,,
+x-cellent (KCSP);Special;Kubernetes Certified Service Provider,,
+Xenit (KCSP);Special;Kubernetes Certified Service Provider,,
+YLD (KCSP);Special;Kubernetes Certified Service Provider,,
+Zoi (KCSP);Special;Kubernetes Certified Service Provider,,
+ZStack (KCSP);Special;Kubernetes Certified Service Provider,,
+ZTE (KCSP);Special;Kubernetes Certified Service Provider,,
+99Cloud (KTP);Special;Kubernetes Training Partner,,
+acend (KTP);Special;Kubernetes Training Partner,,
+Acornsoft (KTP);Special;Kubernetes Training Partner,,
+Alauda (KTP);Special;Kubernetes Training Partner,,
+Alter Way (KTP);Special;Kubernetes Training Partner,,
+Ambient IT (KTP);Special;Kubernetes Training Partner,,
+Appddiction Studio (KTP);Special;Kubernetes Training Partner,,
+ATIX (KTP);Special;Kubernetes Training Partner,,
+BoCloud (KTP);Special;Kubernetes Training Partner,,
+BoxBoat (KTP);Special;Kubernetes Training Partner,,
+Camptocamp (KTP);Special;Kubernetes Training Partner,,
+CARS - China Academy of Railway Sciences (KTP);Special;Kubernetes Training Partner,,
+CINQ (KTP);Special;Kubernetes Training Partner,,
+CloudOps (KTP);Special;Kubernetes Training Partner,,
+Component Soft (KTP);Special;Kubernetes Training Partner,,
+Conoa (KTP);Special;Kubernetes Training Partner,,
+Container Solutions (KTP);Special;Kubernetes Training Partner,,
+ControlPlane (KTP);Special;Kubernetes Training Partner,,
+Creationline (KTP);Special;Kubernetes Training Partner,,
+Cuemby (KTP);Special;Kubernetes Training Partner,,
+D2iQ (KTP);Special;Kubernetes Training Partner,,
+DaoCloud (KTP);Special;Kubernetes Training Partner,,
+Desotech (KTP);Special;Kubernetes Training Partner,,
+DoiT (KTP);Special;Kubernetes Training Partner,,
+EasyStack (KTP);Special;Kubernetes Training Partner,,
+Elastisys (KTP);Special;Kubernetes Training Partner,,
+Entigo (KTP);Special;Kubernetes Training Partner,,
+Fullstaq (KTP);Special;Kubernetes Training Partner,,
+Gaia (KTP);Special;Kubernetes Training Partner,,
+HarmonyCloud (KTP);Special;Kubernetes Training Partner,,
+HPE (KTP);Special;Kubernetes Training Partner,,
+Huawei (KTP);Special;Kubernetes Training Partner,,
+inovex (KTP);Special;Kubernetes Training Partner,,
+INSPUR (KTP);Special;Kubernetes Training Partner,,
+iSoftStone (KTP);Special;Kubernetes Training Partner,,
+Kiratech (KTP);Special;Kubernetes Training Partner,,
+KodeKloud (KTP);Special;Kubernetes Training Partner,,
+KubeOps (KTP);Special;Kubernetes Training Partner,,
+Kubermatic (KTP);Special;Kubernetes Training Partner,,
+Liquid Reply (KTP);Special;Kubernetes Training Partner,,
+Mirantis (KTP);Special;Kubernetes Training Partner,,
+Oteemo (KTP);Special;Kubernetes Training Partner,,
+Polar Squad (KTP);Special;Kubernetes Training Partner,,
+PRODYNA (KTP);Special;Kubernetes Training Partner,,
+RX-M (KTP);Special;Kubernetes Training Partner,,
+servicememe (KTP);Special;Kubernetes Training Partner,,
+Shinesoft (KTP);Special;Kubernetes Training Partner,,
+SIGHUP (KTP);Special;Kubernetes Training Partner,,
+SoKube (KTP);Special;Kubernetes Training Partner,,
+Storm Reply (KTP);Special;Kubernetes Training Partner,,
+SuperOrbital (KTP);Special;Kubernetes Training Partner,,
+SVA (KTP);Special;Kubernetes Training Partner,,
+TenxCloud (KTP);Special;Kubernetes Training Partner,,
+The Linux Foundation Training (KTP);Special;Kubernetes Training Partner,,
+Volcano Engine (KTP);Special;Kubernetes Training Partner,,
+WhizUs (KTP);Special;Kubernetes Training Partner,,
+x-cellent (KTP);Special;Kubernetes Training Partner,,
+6WIND Virtual Service Router (VSR);Special;Certified CNFs,,
+BIG-IP NEXT Edge Firewall CNF;Special;Certified CNFs,,
+Containerized Routing Protocol Daemon;Special;Certified CNFs,,
+Containerized Security Router and Switch (cSRX);Special;Certified CNFs,,
+Huawei Convergent Billing System (CBS);Special;Certified CNFs,,
+MATRIXX Digital Commerce;Special;Certified CNFs,,
+Alibaba Cloud (member);CNCF Members;Platinum,,
+Amazon Web Services (member);CNCF Members;Platinum,,
+Apple (member);CNCF Members;Platinum,,
+AT&T (member);CNCF Members;Platinum,,
+Boeing (member);CNCF Members;Platinum,,
+Cisco (member);CNCF Members;Platinum,,
+Fujitsu (member);CNCF Members;Platinum,,
+Google Cloud (member);CNCF Members;Platinum,,
+Grafana Labs (member);CNCF Members;Platinum,,
+HCL Technologies (member);CNCF Members;Platinum,,
+Huawei (member);CNCF Members;Platinum,,
+IBM (member);CNCF Members;Platinum,,
+Infosys (member);CNCF Members;Platinum,,
+Intel (member);CNCF Members;Platinum,,
+Kasten (member);CNCF Members;Platinum,,
+Microsoft (member);CNCF Members;Platinum,,
+NetApp (member);CNCF Members;Platinum,,
+New Relic (member);CNCF Members;Platinum,,
+Oracle (member);CNCF Members;Platinum,,
+Prisma Cloud by Palo Alto Networks (member);CNCF Members;Platinum,,
+Red Hat (member);CNCF Members;Platinum,,
+SAP (member);CNCF Members;Platinum,,
+VMware (member);CNCF Members;Platinum,,
+Volcano Engine (member);CNCF Members;Platinum,,
+American Express (member);CNCF Members;Gold,,
+Ant Financial (member);CNCF Members;Gold,,
+Arm (member);CNCF Members;Gold,,
+Baidu (member);CNCF Members;Gold,,
+Capital One (member);CNCF Members;Gold,,
+CECloud (member);CNCF Members;Gold,,
+Charter Communications (member);CNCF Members;Gold,,
+China Telecom Cloud Technology Co.,,
+DaoCloud (member);CNCF Members;Gold,,
+Equinix (member);CNCF Members;Gold,,
+EY (member);CNCF Members;Gold,,
+Fidelity Investments (member);CNCF Members;Gold,,
+H3C Technologies (member);CNCF Members;Gold,,
+Hitachi (member);CNCF Members;Gold,,
+Inspur (member);CNCF Members;Gold,,
+Intuit (member);CNCF Members;Gold,,
+iSoftStone (member);CNCF Members;Gold,,
+JD Cloud (member);CNCF Members;Gold,,
+JFrog (member);CNCF Members;Gold,,
+NEC (member);CNCF Members;Gold,,
+OPPO (member);CNCF Members;Gold,,
+Salesforce (member);CNCF Members;Gold,,
+Splunk (member);CNCF Members;Gold,,
+T-Mobile (member);CNCF Members;Gold,,
+Tencent Cloud (member);CNCF Members;Gold,,
+ZTE (member);CNCF Members;Gold,,
+1Crew (member);CNCF Members;Silver,,
+1NCE (member);CNCF Members;Silver,,
+23 Technologies (member);CNCF Members;Silver,,
+3-Shake (member);CNCF Members;Silver,,
+6WIND (member);CNCF Members;Silver,,
+99cloud (member);CNCF Members;Silver,,
+ACC ICT (member);CNCF Members;Silver,,
+AccuKnox (member);CNCF Members;Silver,,
+acend (member);CNCF Members;Silver,,
+ACKSTORM (member);CNCF Members;Silver,,
+Acorn Labs (member);CNCF Members;Silver,,
+Adfolks (member);CNCF Members;Silver,,
+Aembit (member);CNCF Members;Silver,,
+Aeolabs (member);CNCF Members;Silver,,
+Aerospike (member);CNCF Members;Silver,,
+Afi Technologies (member);CNCF Members;Silver,,
+AgileOps (member);CNCF Members;Silver,,
+AIM (member);CNCF Members;Silver,,
+Airlock (member);CNCF Members;Silver,,
+Aiven (member);CNCF Members;Silver,,
+Akamai (member);CNCF Members;Silver,,
+Akatsuki (member);CNCF Members;Silver,,
+Akuity (member);CNCF Members;Silver,,
+Alauda (member);CNCF Members;Silver,,
+Alerant (member);CNCF Members;Silver,,
+Allianz Direct (member);CNCF Members;Silver,,
+Alter Way (member);CNCF Members;Silver,,
+AlviStack (member);CNCF Members;Silver,,
+amazee.io (member);CNCF Members;Silver,,
+Ambassador (member);CNCF Members;Silver,,
+Amberflo (member);CNCF Members;Silver,,
+Ambient IT (member);CNCF Members;Silver,,
+American Cloud (member);CNCF Members;Silver,,
+Amesto Fortytwo (member);CNCF Members;Silver,,
+Ampere Consulting (member);CNCF Members;Silver,,
+Amplication (member);CNCF Members;Silver,,
+Anchore (member);CNCF Members;Silver,,
+Andes Digital (member);CNCF Members;Silver,,
+anynines (member);CNCF Members;Silver,,
+Aokumo (member);CNCF Members;Silver,,
+APE Factory (member);CNCF Members;Silver,,
+ApeCloud (member);CNCF Members;Silver,,
+Apiiro (member);CNCF Members;Silver,,
+Apono (member);CNCF Members;Silver,,
+Appddiction Studio (member);CNCF Members;Silver,,
+AppsCode (member);CNCF Members;Silver,,
+Appstellar (member);CNCF Members;Silver,,
+Appvia (member);CNCF Members;Silver,,
+Aqua Security (member);CNCF Members;Silver,,
+ArcherOS (member);CNCF Members;Silver,,
+Argonaut (member);CNCF Members;Silver,,
+Arima (member);CNCF Members;Silver,,
+Armo (member);CNCF Members;Silver,,
+Armory (member);CNCF Members;Silver,,
+Arnica (member);CNCF Members;Silver,,
+Arrikto (member);CNCF Members;Silver,,
+Aserto (member);CNCF Members;Silver,,
+Aspen Mesh (member);CNCF Members;Silver,,
+ASUS Cloud Corporation (member);CNCF Members;Silver,,
+ATIX (member);CNCF Members;Silver,,
+Atlassian (member);CNCF Members;Silver,,
+Audi (member);CNCF Members;Silver,,
+Authzed (member);CNCF Members;Silver,,
+AutoCloud (member);CNCF Members;Silver,,
+Avesha (member);CNCF Members;Silver,,
+Avisi (member);CNCF Members;Silver,,
+Axcelinno (member);CNCF Members;Silver,,
+Axiata Digital Labs (member);CNCF Members;Silver,,
+Axoflow (member);CNCF Members;Silver,,
+b-nova (member);CNCF Members;Silver,,
+B1 Systems (member);CNCF Members;Silver,,
+Backslash Security (member);CNCF Members;Silver,,
+Bancolombia (member);CNCF Members;Silver,,
+BC Cloud (member);CNCF Members;Silver,,
+BellSoft (member);CNCF Members;Silver,,
+BerryBytes (member);CNCF Members;Silver,,
+BESSYSTEM (member);CNCF Members;Silver,,
+Binario Etico (member);CNCF Members;Silver,,
+Biqmind (member);CNCF Members;Silver,,
+Bitrock (member);CNCF Members;Silver,,
+BlackRock (member);CNCF Members;Silver,,
+BlakYaks (member);CNCF Members;Silver,,
+Bloomberg (member);CNCF Members;Silver,,
+Blue Sentry (member);CNCF Members;Silver,,
+BMO - Bank of Montreal (member);CNCF Members;Silver,,
+BoCloud (member);CNCF Members;Silver,,
+BONC (member);CNCF Members;Silver,,
+Booz Allen Hamilton (member);CNCF Members;Silver,,
+Boxboat (member);CNCF Members;Silver,,
+Broadcom (member);CNCF Members;Silver,,
+Brobridge (member);CNCF Members;Silver,,
+Buoyant (member);CNCF Members;Silver,,
+BXCloud Platform by Bankware Global (member);CNCF Members;Silver,,
+ByteSource (member);CNCF Members;Silver,,
+Calyptia (member);CNCF Members;Silver,,
+Camptocamp (member);CNCF Members;Silver,,
+Canonical (member);CNCF Members;Silver,,
+CARS - China Academy of Railway Sciences (member);CNCF Members;Silver,,
+Cast.ai (member);CNCF Members;Silver,,
+Catalyst Cloud (member);CNCF Members;Silver,,
+Caylent (member);CNCF Members;Silver,,
+CelerData (member);CNCF Members;Silver,,
+Cerbos (member);CNCF Members;Silver,,
+Chainguard (member);CNCF Members;Silver,,
+Chaitin Tech (member);CNCF Members;Silver,,
+China Mobile (member);CNCF Members;Silver,,
+China Systems (member);CNCF Members;Silver,,
+China Unicom (member);CNCF Members;Silver,,
+Chislitel Lab (member);CNCF Members;Silver,,
+Chkk (member);CNCF Members;Silver,,
+Chronosphere (member);CNCF Members;Silver,,
+CINQ (member);CNCF Members;Silver,,
+CircleCI (member);CNCF Members;Silver,,
+Cisel Informatique (member);CNCF Members;Silver,,
+Citi (member);CNCF Members;Silver,,
+Civo (member);CNCF Members;Silver,,
+Claion (member);CNCF Members;Silver,,
+Clastix (member);CNCF Members;Silver,,
+Clockwork (member);CNCF Members;Silver,,
+Cloud Ace (member);CNCF Members;Silver,,
+Cloud Kinetics (member);CNCF Members;Silver,,
+Cloudbase Solutions (member);CNCF Members;Silver,,
+CloudBees (member);CNCF Members;Silver,,
+CloudBolt Software (member);CNCF Members;Silver,,
+CloudCasa by Catalogic (member);CNCF Members;Silver,,
+CloudControl (member);CNCF Members;Silver,,
+CloudCover (member);CNCF Members;Silver,,
+CloudFabrix (member);CNCF Members;Silver,,
+CloudGeometry (member);CNCF Members;Silver,,
+Cloudical (member);CNCF Members;Silver,,
+Cloudification (member);CNCF Members;Silver,,
+Cloudmate (member);CNCF Members;Silver,,
+CloudOps (member);CNCF Members;Silver,,
+Cloudshape (member);CNCF Members;Silver,,
+Cloudsmith (member);CNCF Members;Silver,,
+Clyso (member);CNCF Members;Silver,,
+Cockroach Labs (member);CNCF Members;Silver,,
+Cocktail Cloud (member);CNCF Members;Silver,,
+Code Narrator (member);CNCF Members;Silver,,
+Codefresh (member);CNCF Members;Silver,,
+Cognizant Technology Solutions (member);CNCF Members;Silver,,
+Comcast (member);CNCF Members;Silver,,
+Comforte (member);CNCF Members;Silver,,
+Commvault (member);CNCF Members;Silver,,
+ComplianceCow (member);CNCF Members;Silver,,
+Component Soft (member);CNCF Members;Silver,,
+Conoa (member);CNCF Members;Silver,,
+Container Solutions (member);CNCF Members;Silver,,
+Contrast Security (member);CNCF Members;Silver,,
+Control Plane (member);CNCF Members;Silver,,
+ControlMonkey (member);CNCF Members;Silver,,
+ControlPlane (member);CNCF Members;Silver,,
+Convox (member);CNCF Members;Silver,,
+Core 24/7 (member);CNCF Members;Silver,,
+Coredge (member);CNCF Members;Silver,,
+CoreHive Computing (member);CNCF Members;Silver,,
+Cortex (member);CNCF Members;Silver,,
+Cosmonic (member);CNCF Members;Silver,,
+CrafterCMS (member);CNCF Members;Silver,,
+Creationline (member);CNCF Members;Silver,,
+Cribl (member);CNCF Members;Silver,,
+Crunchy Data (member);CNCF Members;Silver,,
+CTO.ai (member);CNCF Members;Silver,,
+Ctrlstack (member);CNCF Members;Silver,,
+Cuegee (member);CNCF Members;Silver,,
+Cuemby (member);CNCF Members;Silver,,
+CyberArk (member);CNCF Members;Silver,,
+Cybozu (member);CNCF Members;Silver,,
+Cycode (member);CNCF Members;Silver,,
+D2iQ (member);CNCF Members;Silver,,
+Daekyo CNS (member);CNCF Members;Silver,,
+DataCore (member);CNCF Members;Silver,,
+Datadog (member);CNCF Members;Silver,,
+Datadrivers (member);CNCF Members;Silver,,
+Datastax (member);CNCF Members;Silver,,
+DatenLord (member);CNCF Members;Silver,,
+Datree (member);CNCF Members;Silver,,
+Daugherty Business Solutions (member);CNCF Members;Silver,,
+Deepfactor (member);CNCF Members;Silver,,
+Deepfence (member);CNCF Members;Silver,,
+Deepshore (member);CNCF Members;Silver,,
+Defense Unicorns (member);CNCF Members;Silver,,
+Dell Technologies (member);CNCF Members;Silver,,
+Deloitte Consulting (member);CNCF Members;Silver,,
+Depot (member);CNCF Members;Silver,,
+Desotech (member);CNCF Members;Silver,,
+DevsOperative (member);CNCF Members;Silver,,
+Devtron (member);CNCF Members;Silver,,
+DGi (member);CNCF Members;Silver,,
+Diagrid (member);CNCF Members;Silver,,
+Diamanti (member);CNCF Members;Silver,,
+Didim365 (member);CNCF Members;Silver,,
+Digital China (member);CNCF Members;Silver,,
+DigitalOcean (member);CNCF Members;Silver,,
+Direktiv (member);CNCF Members;Silver,,
+Docker (member);CNCF Members;Silver,,
+DOCOMO Innovations (member);CNCF Members;Silver,,
+DoiT (member);CNCF Members;Silver,,
+Dosec (member);CNCF Members;Silver,,
+Dragonflydb (member);CNCF Members;Silver,,
+Dynatrace (member);CNCF Members;Silver,,
+EasyStack (member);CNCF Members;Silver,,
+eBay (member);CNCF Members;Silver,,
+eCloudTech (member);CNCF Members;Silver,,
+Edge Delta (member);CNCF Members;Silver,,
+Edgeless Systems (member);CNCF Members;Silver,,
+Edgenesis (member);CNCF Members;Silver,,
+EdgeRay (member);CNCF Members;Silver,,
+Elastic (member);CNCF Members;Silver,,
+Elastisys (member);CNCF Members;Silver,,
+Elastx (member);CNCF Members;Silver,,
+Elotl (member);CNCF Members;Silver,,
+Emagine IT (member);CNCF Members;Silver,,
+EMQ Technologies (member);CNCF Members;Silver,,
+Enterprise DB (member);CNCF Members;Silver,,
+Entigo (member);CNCF Members;Silver,,
+env0 (member);CNCF Members;Silver,,
+EPAM Systems (member);CNCF Members;Silver,,
+Ericsson (member);CNCF Members;Silver,,
+Eviden (member);CNCF Members;Silver,,
+Evolutio (member);CNCF Members;Silver,,
+Evolvere Technologies (member);CNCF Members;Silver,,
+Evonem (member);CNCF Members;Silver,,
+Exein (member);CNCF Members;Silver,,
+Exoscale (member);CNCF Members;Silver,,
+Exotanium (member);CNCF Members;Silver,,
+Expedia Group (member);CNCF Members;Silver,,
+Expert Thinking (member);CNCF Members;Silver,,
+F5 (member);CNCF Members;Silver,,
+Facets.cloud (member);CNCF Members;Silver,,
+Fairwinds (member);CNCF Members;Silver,,
+Fermyon Technologies (member);CNCF Members;Silver,,
+Fiberplane (member);CNCF Members;Silver,,
+Finout (member);CNCF Members;Silver,,
+Firefly (member);CNCF Members;Silver,,
+FireHydrant (member);CNCF Members;Silver,,
+Firetail (member);CNCF Members;Silver,,
+Flanksource (member);CNCF Members;Silver,,
+Flant (member);CNCF Members;Silver,,
+FluxNinja (member);CNCF Members;Silver,,
+FOSSA (member);CNCF Members;Silver,,
+Fournine Cloud Solutions (member);CNCF Members;Silver,,
+FUGA Cloud (member);CNCF Members;Silver,,
+FullStackS (member);CNCF Members;Silver,,
+Fullstaq (member);CNCF Members;Silver,,
+Futurewei Technologies (member);CNCF Members;Silver,,
+G-Research (member);CNCF Members;Silver,,
+Gaia Information Technology  (member);CNCF Members;Silver,,
+Garden (member);CNCF Members;Silver,,
+GE Healthcare (member);CNCF Members;Silver,,
+genezio (member);CNCF Members;Silver,,
+German Edge Cloud (member);CNCF Members;Silver,,
+Giant Swarm (member);CNCF Members;Silver,,
+GienTech (member);CNCF Members;Silver,,
+GitGuardian (member);CNCF Members;Silver,,
+GitLab (member);CNCF Members;Silver,,
+Gitpod (member);CNCF Members;Silver,,
+Globo (member);CNCF Members;Silver,,
+GoDaddy (member);CNCF Members;Silver,,
+Goldman Sachs (member);CNCF Members;Silver,,
+Granulate (member);CNCF Members;Silver,,
+Grape Up (member);CNCF Members;Silver,,
+Greptime (member);CNCF Members;Silver,,
+greymatter.io (member);CNCF Members;Silver,,
+Groundcover (member);CNCF Members;Silver,,
+Guance (member);CNCF Members;Silver,,
+Guida (member);CNCF Members;Silver,,
+Hammerspace (member);CNCF Members;Silver,,
+HAProxy Technologies (member);CNCF Members;Silver,,
+Harmony Cloud (member);CNCF Members;Silver,,
+Harness (member);CNCF Members;Silver,,
+Harpoon (member);CNCF Members;Silver,,
+HashiCorp (member);CNCF Members;Silver,,
+Helios (member);CNCF Members;Silver,,
+Honeycomb (member);CNCF Members;Silver,,
+Hostersi (member);CNCF Members;Silver,,
+HPE (member);CNCF Members;Silver,,
+Humanitec (member);CNCF Members;Silver,,
+iauro (member);CNCF Members;Silver,,
+iCubed (member);CNCF Members;Silver,,
+IGNW (member);CNCF Members;Silver,,
+IITS Consulting (member);CNCF Members;Silver,,
+ILKI (member);CNCF Members;Silver,,
+Indeed (member);CNCF Members;Silver,,
+Infinyon (member);CNCF Members;Silver,,
+InfluxData (member);CNCF Members;Silver,,
+Infoblox (member);CNCF Members;Silver,,
+Infra Technologies (member);CNCF Members;Silver,,
+InfraCloud Technologies (member);CNCF Members;Silver,,
+initializ™ (member);CNCF Members;Silver,,
+Innogrid (member);CNCF Members;Silver,,
+Inovex (member);CNCF Members;Silver,,
+Instruqt (member);CNCF Members;Silver,,
+Intercloud (member);CNCF Members;Silver,,
+Isovalent (member);CNCF Members;Silver,,
+Jetstack (member);CNCF Members;Silver,,
+JPMorgan Chase (member);CNCF Members;Silver,,
+Juniper Networks (member);CNCF Members;Silver,,
+KBSYS (member);CNCF Members;Silver,,
+Kentik (member);CNCF Members;Silver,,
+Keyfactor (member);CNCF Members;Silver,,
+KINX (member);CNCF Members;Silver,,
+Kiratech (member);CNCF Members;Silver,,
+kloia (member);CNCF Members;Silver,,
+Kloudfuse (member);CNCF Members;Silver,,
+KodeKloud (member);CNCF Members;Silver,,
+Kodem Security (member);CNCF Members;Silver,,
+Komodor (member);CNCF Members;Silver,,
+Kong (member);CNCF Members;Silver,,
+KSOC (member);CNCF Members;Silver,,
+kt NexR (member);CNCF Members;Silver,,
+Kubeark (member);CNCF Members;Silver,,
+Kubecost (member);CNCF Members;Silver,,
+KubeOps (member);CNCF Members;Silver,,
+Kuberix (member);CNCF Members;Silver,,
+Kubermatic (member);CNCF Members;Silver,,
+kubeshop (member);CNCF Members;Silver,,
+Kubesphere (member);CNCF Members;Silver,,
+Kubevisor (member);CNCF Members;Silver,,
+Kubiya (member);CNCF Members;Silver,,
+Kublr (member);CNCF Members;Silver,,
+Kumina (member);CNCF Members;Silver,,
+Kusari (member);CNCF Members;Silver,,
+Lablup (member);CNCF Members;Silver,,
+Lacework (member);CNCF Members;Silver,,
+Last9 (member);CNCF Members;Silver,,
+LeanIX (member);CNCF Members;Silver,,
+Legit Security (member);CNCF Members;Silver,,
+Lenovo (member);CNCF Members;Silver,,
+Lightbend (member);CNCF Members;Silver,,
+Lightrun (member);CNCF Members;Silver,,
+LightStep (member);CNCF Members;Silver,,
+Linbit (member);CNCF Members;Silver,,
+Linklogis (member);CNCF Members;Silver,,
+Liquid Reply (member);CNCF Members;Silver,,
+Lockheed Martin (member);CNCF Members;Silver,,
+Loft Labs (member);CNCF Members;Silver,,
+Logiq (member);CNCF Members;Silver,,
+Logz.io (member);CNCF Members;Silver,,
+Loophole Labs (member);CNCF Members;Silver,,
+LSD Open (member);CNCF Members;Silver,,
+LTI (member);CNCF Members;Silver,,
+Lumigo (member);CNCF Members;Silver,,
+MacStadium (member);CNCF Members;Silver,,
+Mail.Ru Cloud Solutions (member);CNCF Members;Silver,,
+MakinaRocks (member);CNCF Members;Silver,,
+Mandao Fintech (member);CNCF Members;Silver,,
+ManTech (member);CNCF Members;Silver,,
+Mastercard (member);CNCF Members;Silver,,
+Materna (member);CNCF Members;Silver,,
+Mathworks (member);CNCF Members;Silver,,
+MATRIXX Software (member);CNCF Members;Silver,,
+Mattermost (member);CNCF Members;Silver,,
+Mavenir (member);CNCF Members;Silver,,
+McKinsey & Company (member);CNCF Members;Silver,,
+MegaEase (member);CNCF Members;Silver,,
+MegazoneCloud (member);CNCF Members;Silver,,
+Memphis.dev (member);CNCF Members;Silver,,
+Mercedes Benz AG (member);CNCF Members;Silver,,
+Merly (member);CNCF Members;Silver,,
+Metis Data (member);CNCF Members;Silver,,
+MetroStar Systems (member);CNCF Members;Silver,,
+Mezmo (member);CNCF Members;Silver,,
+Mia-Platform (member);CNCF Members;Silver,,
+MiaoYun (member);CNCF Members;Silver,,
+Micro Focus (member);CNCF Members;Silver,,
+MinIO (member);CNCF Members;Silver,,
+Mirantis (member);CNCF Members;Silver,,
+Miraxia Edge Technology (member);CNCF Members;Silver,,
+mogenius (member);CNCF Members;Silver,,
+Moment (member);CNCF Members;Silver,,
+Mondoo (member);CNCF Members;Silver,,
+Monostream (member);CNCF Members;Silver,,
+MoreSec (member);CNCF Members;Silver,,
+Morgan Stanley (member);CNCF Members;Silver,,
+Morpheus Data (member);CNCF Members;Silver,,
+MSys Technologies (member);CNCF Members;Silver,,
+Mycelial (member);CNCF Members;Silver,,
+MyFitnessPal (member);CNCF Members;Silver,,
+Namespace Labs (member);CNCF Members;Silver,,
+Namutech (member);CNCF Members;Silver,,
+Napptive (member);CNCF Members;Silver,,
+ndustrial (member);CNCF Members;Silver,,
+Netdata (member);CNCF Members;Silver,,
+NetEase (member);CNCF Members;Silver,,
+NetFoundry (member);CNCF Members;Silver,,
+Nethopper (member);CNCF Members;Silver,,
+Netris (member);CNCF Members;Silver,,
+Neuroglia (member);CNCF Members;Silver,,
+NGINX (member);CNCF Members;Silver,,
+ngrok (member);CNCF Members;Silver,,
+NHN Cloud (member);CNCF Members;Silver,,
+Nirmata (member);CNCF Members;Silver,,
+Nokia (member);CNCF Members;Silver,,
+Non-Public Organization Alligator (member);CNCF Members;Silver,,
+Non-Public Organization Camel (member);CNCF Members;Silver,,
+Non-Public Organization Moose (member);CNCF Members;Silver,,
+Non-Public Organization Narwhal (member);CNCF Members;Silver,,
+Northflank (member);CNCF Members;Silver,,
+NTT DATA Group (member);CNCF Members;Silver,,
+Nutanix (member);CNCF Members;Silver,,
+Nuvitek (member);CNCF Members;Silver,,
+Nuvotex (member);CNCF Members;Silver,,
+NVIDIA (member);CNCF Members;Silver,,
+OBSS (member);CNCF Members;Silver,,
+Occentus (member);CNCF Members;Silver,,
+Octo Consulting (member);CNCF Members;Silver,,
+OGIS-RI (member);CNCF Members;Silver,,
+OKESTRO (member);CNCF Members;Silver,,
+Okta (member);CNCF Members;Silver,,
+Okteto (member);CNCF Members;Silver,,
+Ondat (member);CNCF Members;Silver,,
+OnGres (member);CNCF Members;Silver,,
+Open Source Consulting (member);CNCF Members;Silver,,
+OPENFLAME (member);CNCF Members;Silver,,
+OpenNebula (member);CNCF Members;Silver,,
+Operant (member);CNCF Members;Silver,,
+OpsCruise (member);CNCF Members;Silver,,
+OpsLevel (member);CNCF Members;Silver,,
+OpsMx (member);CNCF Members;Silver,,
+Opus Security (member);CNCF Members;Silver,,
+Orange (member);CNCF Members;Silver,,
+ORCASIO (member);CNCF Members;Silver,,
+Origoss Solutions (member);CNCF Members;Silver,,
+Orkes (member);CNCF Members;Silver,,
+Oteemo (member);CNCF Members;Silver,,
+Otterize (member);CNCF Members;Silver,,
+OVHcloud (member);CNCF Members;Silver,,
+Oxeye (member);CNCF Members;Silver,,
+Ozone (member);CNCF Members;Silver,,
+P0 Security (member);CNCF Members;Silver,,
+Paladin Cloud (member);CNCF Members;Silver,,
+Palark (member);CNCF Members;Silver,,
+Peloton Interactive (member);CNCF Members;Silver,,
+Pengyun Network (member);CNCF Members;Silver,,
+Percona (member);CNCF Members;Silver,,
+PerfectScale (member);CNCF Members;Silver,,
+Permit.io (member);CNCF Members;Silver,,
+Ping An Technology (member);CNCF Members;Silver,,
+PingCAP (member);CNCF Members;Silver,,
+Pionative (member);CNCF Members;Silver,,
+Pipekit (member);CNCF Members;Silver,,
+PlanetScale (member);CNCF Members;Silver,,
+Platform9 (member);CNCF Members;Silver,,
+Plural (member);CNCF Members;Silver,,
+plusserver (member);CNCF Members;Silver,,
+Polar Signals (member);CNCF Members;Silver,,
+Polar Squad (member);CNCF Members;Silver,,
+Port (member);CNCF Members;Silver,,
+Portainer (member);CNCF Members;Silver,,
+Portworx (member);CNCF Members;Silver,,
+Posedio (member);CNCF Members;Silver,,
+Prefect (member);CNCF Members;Silver,,
+Prisma (member);CNCF Members;Silver,,
+Privado (member);CNCF Members;Silver,,
+Prodigy Education (member);CNCF Members;Silver,,
+Prodvana (member);CNCF Members;Silver,,
+PRODYNA (member);CNCF Members;Silver,,
+Profisea (member);CNCF Members;Silver,,
+Pulumi (member);CNCF Members;Silver,,
+Puppet (member);CNCF Members;Silver,,
+Puzzle ITC (member);CNCF Members;Silver,,
+QAware (member);CNCF Members;Silver,,
+Qiming (member);CNCF Members;Silver,,
+Qingteng (member);CNCF Members;Silver,,
+Qleet (member);CNCF Members;Silver,,
+Quali (member);CNCF Members;Silver,,
+QualitySoft (member);CNCF Members;Silver,,
+Rackner (member);CNCF Members;Silver,,
+Rafay Systems (member);CNCF Members;Silver,,
+Raft (member);CNCF Members;Silver,,
+Raftt (member);CNCF Members;Silver,,
+Randoli (member);CNCF Members;Silver,,
+RapidFort (member);CNCF Members;Silver,,
+re:cinq (member);CNCF Members;Silver,,
+Reblaze (member);CNCF Members;Silver,,
+Red Kubes (member);CNCF Members;Silver,,
+Redeploy (member);CNCF Members;Silver,,
+Redpanda (member);CNCF Members;Silver,,
+Refinitiv (member);CNCF Members;Silver,,
+ReleaseHub (member);CNCF Members;Silver,,
+Replicated (member);CNCF Members;Silver,,
+Ridge (member);CNCF Members;Silver,,
+RNG Technology (member);CNCF Members;Silver,,
+Roadie (member);CNCF Members;Silver,,
+Robin Systems (member);CNCF Members;Silver,,
+Robusta (member);CNCF Members;Silver,,
+Rookout (member);CNCF Members;Silver,,
+Roost (member);CNCF Members;Silver,,
+Rootly (member);CNCF Members;Silver,,
+RTX (member);CNCF Members;Silver,,
+RX-M (member);CNCF Members;Silver,,
+SAIC (member);CNCF Members;Silver,,
+Salad Technologies (member);CNCF Members;Silver,,
+saltware (member);CNCF Members;Silver,,
+Samsung SDS (member);CNCF Members;Silver,,
+Scaleflash (member);CNCF Members;Silver,,
+ScaleOps (member);CNCF Members;Silver,,
+Scaleway (member);CNCF Members;Silver,,
+Scarf (member);CNCF Members;Silver,,
+Scribe Security (member);CNCF Members;Silver,,
+Seagate (member);CNCF Members;Silver,,
+Seal (member);CNCF Members;Silver,,
+Searce (member);CNCF Members;Silver,,
+Second State (member);CNCF Members;Silver,,
+Section (member);CNCF Members;Silver,,
+servicememe (member);CNCF Members;Silver,,
+Services4-IT (member);CNCF Members;Silver,,
+Shanghai HFtech (member);CNCF Members;Silver,,
+SHE BASH (member);CNCF Members;Silver,,
+Shinesoft (member);CNCF Members;Silver,,
+Shoreline (member);CNCF Members;Silver,,
+Sidero Labs (member);CNCF Members;Silver,,
+sifamo (member);CNCF Members;Silver,,
+SIGHUP (member);CNCF Members;Silver,,
+Signadot (member);CNCF Members;Silver,,
+SigScalr (member);CNCF Members;Silver,,
+SingleStore (member);CNCF Members;Silver,,
+Skyloud (member);CNCF Members;Silver,,
+Slim.ai (member);CNCF Members;Silver,,
+Smallstep (member);CNCF Members;Silver,,
+Smart Cloud Solutions (member);CNCF Members;Silver,,
+Smartiful (member);CNCF Members;Silver,,
+SmartX (member);CNCF Members;Silver,,
+Snyk (member);CNCF Members;Silver,,
+Software Mind (member);CNCF Members;Silver,,
+SoKube (member);CNCF Members;Silver,,
+Solace (member);CNCF Members;Silver,,
+Solo.io (member);CNCF Members;Silver,,
+SonarSource (member);CNCF Members;Silver,,
+Sosivio (member);CNCF Members;Silver,,
+Spacelift (member);CNCF Members;Silver,,
+SparkFabrik (member);CNCF Members;Silver,,
+Spectro Cloud (member);CNCF Members;Silver,,
+SpeedScale (member);CNCF Members;Silver,,
+Speedyrails (member);CNCF Members;Silver,,
+SphereEx (member);CNCF Members;Silver,,
+Spotify (member);CNCF Members;Silver,,
+Springer Nature (member);CNCF Members;Silver,,
+Spyderbat (member);CNCF Members;Silver,,
+Squarespace (member);CNCF Members;Silver,,
+SQUER (member);CNCF Members;Silver,,
+stack.io (member);CNCF Members;Silver,,
+stackgenie (member);CNCF Members;Silver,,
+StackHawk (member);CNCF Members;Silver,,
+STACKIT (member);CNCF Members;Silver,,
+Stacklet (member);CNCF Members;Silver,,
+Steamhaus;CNCF Members;Silver,,
+Stigg (member);CNCF Members;Silver,,
+Storm Reply (member);CNCF Members;Silver,,
+StormForge (member);CNCF Members;Silver,,
+StorPool (member);CNCF Members;Silver,,
+Strata Identity (member);CNCF Members;Silver,,
+Stratox (member);CNCF Members;Silver,,
+Strava (member);CNCF Members;Silver,,
+StreamNative (member);CNCF Members;Silver,,
+Structsure (member);CNCF Members;Silver,,
+Styra (member);CNCF Members;Silver,,
+Sue B.V. (member);CNCF Members;Silver,,
+Sumo Logic (member);CNCF Members;Silver,,
+Sup-info Information Technology (member);CNCF Members;Silver,,
+SuperOrbital (member);CNCF Members;Silver,,
+SUSE (member);CNCF Members;Silver,,
+SVA (member);CNCF Members;Silver,,
+Swisscom (member);CNCF Members;Silver,,
+Symbotic (member);CNCF Members;Silver,,
+Synax (member);CNCF Members;Silver,,
+Sysdig (member);CNCF Members;Silver,,
+SysEleven (member);CNCF Members;Silver,,
+T-Systems (member);CNCF Members;Silver,,
+Taikun (member);CNCF Members;Silver,,
+TelemetryHub by Scout APM (member);CNCF Members;Silver,,
+Teleport (member);CNCF Members;Silver,,
+Temenos (member);CNCF Members;Silver,,
+Temporal (member);CNCF Members;Silver,,
+Tenable (member);CNCF Members;Silver,,
+Tensor Security (member);CNCF Members;Silver,,
+TenxCloud (member);CNCF Members;Silver,,
+TeraSky (member);CNCF Members;Silver,,
+Terramate (member);CNCF Members;Silver,,
+TestifySec (member);CNCF Members;Silver,,
+Tetrate (member);CNCF Members;Silver,,
+TeutoStack (member);CNCF Members;Silver,,
+The Scale Factory (member);CNCF Members;Silver,,
+Thnk Big (member);CNCF Members;Silver,,
+Thought Machine (member);CNCF Members;Silver,,
+Tigera (member);CNCF Members;Silver,,
+Timescale (member);CNCF Members;Silver,,
+TL Consulting Group (member);CNCF Members;Silver,,
+TmaxCloud (member);CNCF Members;Silver,,
+TongTech (member);CNCF Members;Silver,,
+Toyota Motor Corporation (member);CNCF Members;Silver,,
+TraceRoute42 (member);CNCF Members;Silver,,
+Traefik Labs (member);CNCF Members;Silver,,
+Transposit (member);CNCF Members;Silver,,
+Transwarp Technologies (member);CNCF Members;Silver,,
+Travelping (member);CNCF Members;Silver,,
+Trend Micro (member);CNCF Members;Silver,,
+True (member);CNCF Members;Silver,,
+Tyk (member);CNCF Members;Silver,,
+Uffizzi (member);CNCF Members;Silver,,
+UMB (member);CNCF Members;Silver,,
+Unikraft (member);CNCF Members;Silver,,
+Union.ai (member);CNCF Members;Silver,,
+unSkript (member);CNCF Members;Silver,,
+Upbound (member);CNCF Members;Silver,,
+UpCloud (member);CNCF Members;Silver,,
+Upsider (member);CNCF Members;Silver,,
+Uptycs (member);CNCF Members;Silver,,
+UWS (member);CNCF Members;Silver,,
+VA Linux Systems Japan (member);CNCF Members;Silver,,
+Valve Software (member);CNCF Members;Silver,,
+Velocity (member);CNCF Members;Silver,,
+VEXXHOST (member);CNCF Members;Silver,,
+VictoriaMetrics (member);CNCF Members;Silver,,
+Virtasant (member);CNCF Members;Silver,,
+VNET (member);CNCF Members;Silver,,
+VSHN AG (member);CNCF Members;Silver,,
+Vultr (member);CNCF Members;Silver,,
+Walmart (member);CNCF Members;Silver,,
+Wanclouds (member);CNCF Members;Silver,,
+Wavecon (member);CNCF Members;Silver,,
+Wayfair (member);CNCF Members;Silver,,
+Weaveworks (member);CNCF Members;Silver,,
+WeScale (member);CNCF Members;Silver,,
+WhaTap (member);CNCF Members;Silver,,
+Whitestack (member);CNCF Members;Silver,,
+WhizUs (member);CNCF Members;Silver,,
+Wind River (member);CNCF Members;Silver,,
+Wing Programming Language (member);CNCF Members;Silver,,
+Wise2C (member);CNCF Members;Silver,,
+WOQU Tech (member);CNCF Members;Silver,,
+Wowjoy Technology (member);CNCF Members;Silver,,
+WSO2 (member);CNCF Members;Silver,,
+x-cellent (member);CNCF Members;Silver,,
+x-ion (member);CNCF Members;Silver,,
+Xenit (member);CNCF Members;Silver,,
+XigXog (member);CNCF Members;Silver,,
+Yahoo Japan Corporation (member);CNCF Members;Silver,,
+Yellowbrick (member);CNCF Members;Silver,,
+YLD (member);CNCF Members;Silver,,
+Yusur Technology (member);CNCF Members;Silver,,
+ZEDEDA,,
+Zelarsoft (member);CNCF Members;Silver,,
+Zenduty (member);CNCF Members;Silver,,
+Zoi (member);CNCF Members;Silver,,
+ZStack (member);CNCF Members;Silver,,
+Golden Gate University (member);CNCF Members;Academic,,
+Strategic Education (member);CNCF Members;Academic,,
+SW Engineering Lab of Zhejiang University (member);CNCF Members;Academic,,
+University of Michigan (member);CNCF Members;Academic,,
+ARDC (member);CNCF Members;Nonprofit,,
+CableLabs (member);CNCF Members;Nonprofit,,
+Cambia Health Solutions (member);CNCF Members;Nonprofit,,
+Canada Health Infoway (member);CNCF Members;Nonprofit,,
+CENGN (member);CNCF Members;Nonprofit,,
+Cloud Foundry Foundation (member);CNCF Members;Nonprofit,,
+Eclipse Foundation (member);CNCF Members;Nonprofit,,
+MITRE (member);CNCF Members;Nonprofit,,
+NAIC (member);CNCF Members;Nonprofit,,
+National Information Society Agency (member);CNCF Members;Nonprofit,,
+NIPR (member);CNCF Members;Nonprofit,,
+Non-Public Organization Octopus (member);CNCF Members;Nonprofit,,
+Non-Public Organization Quail (member);CNCF Members;Nonprofit,,
+Open Compute Project (member);CNCF Members;Nonprofit,,
+RISC-V (member);CNCF Members;Nonprofit,,
+SiDi Campinas (member);CNCF Members;Nonprofit,,
+Telecommunications Technology Association (member);CNCF Members;Nonprofit,,
+TNO (member);CNCF Members;Nonprofit,,
+UPMC Enterprises (member);CNCF Members;Nonprofit,,
+Wikimedia (member);CNCF Members;Nonprofit,,
+4intelligence (supporter);CNCF Members;End User Supporter,,
+Adidas (supporter);CNCF Members;End User Supporter,,
+Adobe (supporter);CNCF Members;End User Supporter,,
+Airbnb (supporter);CNCF Members;End User Supporter,,
+Amadeus (supporter);CNCF Members;End User Supporter,,
+Anova (supporter);CNCF Members;End User Supporter,,
+Argyle Systems (supporter);CNCF Members;End User Supporter,,
+AuditBoard (supporter);CNCF Members;End User Supporter,,
+AuthKeys (supporter);CNCF Members;End User Supporter,,
+Blizzard (supporter);CNCF Members;End User Supporter,,
+Box (supporter);CNCF Members;End User Supporter,,
+Cardinal Health (supporter);CNCF Members;End User Supporter,,
+CARIAD (supporter);CNCF Members;End User Supporter,,
+Celonis (supporter);CNCF Members;End User Supporter,,
+Cookpad (supporter);CNCF Members;End User Supporter,,
+Cordial (supporter);CNCF Members;End User Supporter,,
+Cruise (supporter);CNCF Members;End User Supporter,,
+DataGalaxy (supporter);CNCF Members;End User Supporter,,
+DB Systel (supporter);CNCF Members;End User Supporter,,
+Decathlon (supporter);CNCF Members;End User Supporter,,
+DFDS (supporter);CNCF Members;End User Supporter,,
+DIRECTV (supporter);CNCF Members;End User Supporter,,
+DoorDash (supporter);CNCF Members;End User Supporter,,
+Entegral (supporter);CNCF Members;End User Supporter,,
+EquityZen (supporter);CNCF Members;End User Supporter,,
+EverQuote (supporter);CNCF Members;End User Supporter,,
+FATMAP (supporter);CNCF Members;End User Supporter,,
+Fiserv (supporter);CNCF Members;End User Supporter,,
+Form3 (supporter);CNCF Members;End User Supporter,,
+GMX (supporter);CNCF Members;End User Supporter,,
+HiTRUST (supporter);CNCF Members;End User Supporter,,
+Huifu Payment Limited (supporter);CNCF Members;End User Supporter,,
+i Cubed Systems,,
+iHerb (supporter);CNCF Members;End User Supporter,,
+JYSK (supporter);CNCF Members;End User Supporter,,
+King (supporter);CNCF Members;End User Supporter,,
+KSAT (supporter);CNCF Members;End User Supporter,,
+La Mobiliere (supporter);CNCF Members;End User Supporter,,
+Lunar (supporter);CNCF Members;End User Supporter,,
+Mambu (supporter);CNCF Members;End User Supporter,,
+MasterClass (supporter);CNCF Members;End User Supporter,,
+Meltwater (supporter);CNCF Members;End User Supporter,,
+Monzo (supporter);CNCF Members;End User Supporter,,
+Morning Consult (supporter);CNCF Members;End User Supporter,,
+Nasdaq (supporter);CNCF Members;End User Supporter,,
+NetMatch (supporter);CNCF Members;End User Supporter,,
+NielsenIQ (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Bear (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Dog (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Elephant (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Flamingo (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Giraffe (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Horse (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Iguana (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Jellyfish (supporter);CNCF Members;End User Supporter,,
+Non-Public Organization Kiwi (supporter);CNCF Members;End User Supporter,,
+OneCause (supporter);CNCF Members;End User Supporter,,
+PayIt (supporter);CNCF Members;End User Supporter,,
+PDT Partners (supporter);CNCF Members;End User Supporter,,
+Peritus.ai (supporter);CNCF Members;End User Supporter,,
+Porsche (supporter);CNCF Members;End User Supporter,,
+PostFinance (supporter);CNCF Members;End User Supporter,,
+ProSiebenSat.1 (supporter);CNCF Members;End User Supporter,,
+Pusher (supporter);CNCF Members;End User Supporter,,
+Reddit (supporter);CNCF Members;End User Supporter,,
+REWE International Dienstleistungsges.m.b.h. (supporter);CNCF Members;End User Supporter,,
+Ricardo.ch (supporter);CNCF Members;End User Supporter,,
+Robinhood (supporter);CNCF Members;End User Supporter,,
+RStudio (supporter);CNCF Members;End User Supporter,,
+SAP Concur (supporter);CNCF Members;End User Supporter,,
+Shopify (supporter);CNCF Members;End User Supporter,,
+Sky Betting & Gaming (supporter);CNCF Members;End User Supporter,,
+Skyline Technology Solutions (supporter);CNCF Members;End User Supporter,,
+SNCF (supporter);CNCF Members;End User Supporter,,
+Snow Software (supporter);CNCF Members;End User Supporter,,
+Sony Interactive Entertainment (supporter);CNCF Members;End User Supporter,,
+Swiss Post (supporter);CNCF Members;End User Supporter,,
+The New York Times (supporter);CNCF Members;End User Supporter,,
+Thermo Fisher Scientific (supporter);CNCF Members;End User Supporter,,
+TicketMaster (supporter);CNCF Members;End User Supporter,,
+TomTom (supporter);CNCF Members;End User Supporter,,
+trivago (supporter);CNCF Members;End User Supporter,,
+Ultimate Kronos Group (UKG) (supporter);CNCF Members;End User Supporter,,
+Under Armour (supporter);CNCF Members;End User Supporter,,
+Volvo (supporter);CNCF Members;End User Supporter,,
+Workday (supporter);CNCF Members;End User Supporter,,
+Yahoo (supporter);CNCF Members;End User Supporter,,
+Zalando (supporter);CNCF Members;End User Supporter,,
+Zendesk (supporter);CNCF Members;End User Supporter,,
+.NET;Wasm;Languages,,
+C;Wasm;Languages,,
+C++;Wasm;Languages,,
+componentize-js;Wasm;Languages,,
+Dart;Wasm;Languages,,
+Golang;Wasm;Languages,,
+Grain;Wasm;Languages,,
+Javy;Wasm;Languages,,
+Kotlin;Wasm;Languages,,
+MoonBit;Wasm;Languages,,
+Pyodide;Wasm;Languages,,
+Rust;Wasm;Languages,,
+Wa-lang;Wasm;Languages,,
+WasmEdge-Quickjs;Wasm;Languages,,
+WebAssembly Language runtimes for Python and PHP by VMware Labs;Wasm;Languages,,
+Zig;Wasm;Languages,,
+Krustlet (Wasm);Wasm;Runtimes,,
+Lunatic;Wasm;Runtimes,,
+Timecraft;Wasm;Runtimes,,
+V8;Wasm;Runtimes,,
+WAMR;Wasm;Runtimes,,
+wasm3;Wasm;Runtimes,,
+WasmEdge (Wasm);Wasm;Runtimes,,
+Wasmer;Wasm;Runtimes,,
+Wasmtime;Wasm;Runtimes,,
+WAVM;Wasm;Runtimes,,
+Wazero;Wasm;Runtimes,,
+Ambient;Wasm;Application Frameworks,,
+Dapr SDK;Wasm;Application Frameworks,,
+eunomia-bpf;Wasm;Application Frameworks,,
+Extism;Wasm;Application Frameworks,,
+homestar;Wasm;Application Frameworks,,
+Scale;Wasm;Application Frameworks,,
+SpiderLightning;Wasm;Application Frameworks,,
+Spin;Wasm;Application Frameworks,,
+vscode-wasm;Wasm;Application Frameworks,,
+WASIX;Wasm;Application Frameworks,,
+Wasm Workers Server;Wasm;Application Frameworks,,
+wasmCloud (Wasm);Wasm;Application Frameworks,,
+WasmEdge Plugin System;Wasm;Application Frameworks,,
+Wasmex;Wasm;Application Frameworks,,
+Flatcar Container Linux;Wasm;Edge/Bare metal,,
+Genode;Wasm;Edge/Bare metal,,
+seL4;Wasm;Edge/Bare metal,,
+Unikraft;Wasm;Edge/Bare metal,,
+Apache TVM;Wasm;AI/Machine Learning,,
+FFmpeg;Wasm;AI/Machine Learning,,
+Llama 2;Wasm;AI/Machine Learning,,
+OpenCV;Wasm;AI/Machine Learning,,
+WASI NN for OpenVINO;Wasm;AI/Machine Learning,,
+WASI NN for Pytorch;Wasm;AI/Machine Learning,,
+WASI NN for TensorFlow Lite;Wasm;AI/Machine Learning,,
+Dapr (Wasm);Wasm;Embedded Functions,,
+eKuiper;Wasm;Embedded Functions,,
+Envoy (Wasm);Wasm;Embedded Functions,,
+Infinyon;Wasm;Embedded Functions,,
+Istio (Wasm);Wasm;Embedded Functions,,
+Knative (Wasm);Wasm;Embedded Functions,,
+Kube-scheduler;Wasm;Embedded Functions,,
+Kubewarden (Wasm);Wasm;Embedded Functions,,
+libSQL;Wasm;Embedded Functions,,
+NGINX (Wasm);Wasm;Embedded Functions,,
+OPA;Wasm;Embedded Functions,,
+OpenFunction (Wasm);Wasm;Embedded Functions,,
+OpenGauss;Wasm;Embedded Functions,,
+Redpanda (Wasm);Wasm;Embedded Functions,,
+Shopify;Wasm;Embedded Functions,,
+SingleStore (Wasm);Wasm;Embedded Functions,,
+YOMO;Wasm;Embedded Functions,,
+Asyncify;Wasm;Tooling,,
+Binaryen;Wasm;Tooling,,
+cargo;Wasm;Tooling,,
+emscripten;Wasm;Tooling,,
+llvm;Wasm;Tooling,,
+Wabt;Wasm;Tooling,,
+wasm-bindgen;Wasm;Tooling,,
+wasm-pack;Wasm;Tooling,,
+wasm2c;Wasm;Tooling,,
+Wit-binddgen;Wasm;Tooling,,
+Witc;Wasm;Tooling,,
+container2wasm;Wasm;Orchestration & Management,,
+containerd (Wasm);Wasm;Orchestration & Management,,
+cri-o (Wasm);Wasm;Orchestration & Management,,
+crun;Wasm;Orchestration & Management,,
+Docker (Wasm);Wasm;Orchestration & Management,,
+Kuasar (Wasm);Wasm;Orchestration & Management,,
+KubeEdge (Wasm);Wasm;Orchestration & Management,,
+Kubernetes (Wasm);Wasm;Orchestration & Management,,
+Kwasm;Wasm;Orchestration & Management,,
+Meshery (Wasm);Wasm;Orchestration & Management,,
+OpenYurt (Wasm);Wasm;Orchestration & Management,,
+podman (Wasm);Wasm;Orchestration & Management,,
+runwasi;Wasm;Orchestration & Management,,
+SuperEdge (Wasm);Wasm;Orchestration & Management,,
+youki;Wasm;Orchestration & Management,,
+Azure Kubernetes Service (AKS) (Wasm);Wasm;Hosted Platforms,,
+Cloudflare Workers (Wasm);Wasm;Hosted Platforms,,
+Cosmonic;Wasm;Hosted Platforms,,
+Cosmonic (Wasm);Wasm;Hosted Platforms,,
+Fastly Compute@Edge;Wasm;Hosted Platforms,,
+Ferymon Cloud;Wasm;Hosted Platforms,,
+flows.network;Wasm;Hosted Platforms,,
+Golem Cloud (Wasm);Wasm;Hosted Platforms,,
+Taubyte;Wasm;Hosted Platforms,,
+Casper;Wasm;Decentralized Platforms,,
+CosmWasm;Wasm;Decentralized Platforms,,
+Dfinity;Wasm;Decentralized Platforms,,
+EOS;Wasm;Decentralized Platforms,,
+Filecoin;Wasm;Decentralized Platforms,,
+GEAR;Wasm;Decentralized Platforms,,
+NEAR;Wasm;Decentralized Platforms,,
+Polkadot;Wasm;Decentralized Platforms,,
+Quai Network;Wasm;Decentralized Platforms,,
+Ripple;Wasm;Decentralized Platforms,,
+Modsurfer;Wasm;Debugging & Observability,,
+Observe SDK;Wasm;Debugging & Observability,,
+wasi-logging;Wasm;Debugging & Observability,,
+crates.io;Wasm;Packaging,,
+Docker Hub;Wasm;Packaging,,
+Harbor (Wasm);Wasm;Packaging,,
+wapm;Wasm;Packaging,,
+warg;Wasm;Packaging,,

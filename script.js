@@ -8,9 +8,6 @@ var svg = d3.select("#network")
     .attr("width", w)
     .attr("height", h);
 
-
-// Create a categorical color scale
-// Combine multiple D3 color schemes to create a larger palette
 var extendedPalette = [].concat(
     d3.schemeCategory10,
     d3.schemeSet1,
@@ -23,60 +20,78 @@ var extendedPalette = [].concat(
 
 var color = d3.scaleOrdinal(extendedPalette);
 
-// Tooltip setup
 var div = d3.select("div.tooltip");
 
-// Load the data from the JSON file
-d3.json("interactive-landscape.json").then(function(graph) {
+function calculateRadialPositions(nodes, center_x, center_y, inner_radius, outer_radius) {
+    const categories = nodes.filter(node => node.group === 1);
+    const angleStepCategory = 2 * Math.PI / categories.length;
 
-    // Add the CNCF node to the nodes list
-    graph.nodes.unshift(cncfNode);
-
-    // Add links between CNCF and all category nodes
-    graph.nodes.forEach(function(node) {
-        if (node.group === 1) {  // Assuming group 1 represents categories
-            graph.links.push({"source": "CNCF", "target": node.id});
-        }
+    const categoryAngles = {};
+    categories.forEach((category, index) => {
+        categoryAngles[category.id] = index * angleStepCategory;
     });
 
-    // Function to find category for a node
-    function findCategory(nodeId) {
-        for (let link of graph.links) {
-            if (link.target.id === nodeId) {
-                return link.source.id;
-            }
+    nodes.forEach(node => {
+        if (node.group === 0) {
+            node.fx = center_x;
+            node.fy = center_y;
+        } else if (node.group === 1) {
+            const angle = categoryAngles[node.id];
+            node.fx = center_x + inner_radius * Math.cos(angle);
+            node.fy = center_y + inner_radius * Math.sin(angle);
+        } else if (node.group === 2) {
+            const parentAngle = categoryAngles[node.parentCategory];
+            const subcategories = nodes.filter(n => n.parentCategory === node.parentCategory && n.group === 2);
+            const angleStepSubcategory = angleStepCategory / (subcategories.length + 1);
+            const subcategoryIndex = subcategories.findIndex(n => n.id === node.id);
+            const angle = parentAngle + (subcategoryIndex + 1) * angleStepSubcategory - angleStepCategory / 2;
+            node.fx = center_x + outer_radius * Math.cos(angle);
+            node.fy = center_y + outer_radius * Math.sin(angle);
         }
-        return null;
-    }
+    });
+}
 
-    // Force layout setup
+
+d3.json("restructured_data.json").then(function(data) {
+    const graph = { nodes: [], links: [] };
+    graph.nodes.push(cncfNode);
+
+    data.cncf.forEach((cat) => {
+        const categoryNode = { id: cat.category, group: 1 };
+        graph.nodes.push(categoryNode);
+        graph.links.push({ source: "CNCF", target: cat.category });
+    
+        cat.subcategories.forEach((subcat) => {
+            const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: cat.category };
+            graph.nodes.push(subcategoryNode);
+            graph.links.push({ source: cat.category, target: subcat.subcategory });
+        });
+    });
+
+    calculateRadialPositions(graph.nodes, w / 2, h / 2, 150, 300);
+
     var force = d3.forceSimulation()
         .nodes(graph.nodes)
-        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(40))
-        .force("charge", d3.forceManyBody().strength(-1).distanceMax(450))
+        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
+        .force("charge", d3.forceManyBody().strength(-60).distanceMax(100))
         .force("center", d3.forceCenter(w / 2, h / 2))
         .force("collide", d3.forceCollide().radius(10))
         .on("tick", ticked);
 
-    force.force("link")
-        .links(graph.links);
+    force.force("link").links(graph.links);
 
-    // Draw links
     var link = svg.selectAll(".link")
         .data(graph.links)
         .enter().append("line")
         .attr("class", "link");
 
-    // Draw nodes
     var node = svg.selectAll("circle.node")
         .data(graph.nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", 5)
-        .attr("fill", function(d) { 
-            const category = findCategory(d.id);
-            return category ? color(category) : "#999"; // Default gray color if no category found
-        }).call(d3.drag()
+        .attr("r", 7)
+        .attr("fill", function(d) { return color(d.group); })
+        .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
             .on("end", dragended));
@@ -86,31 +101,29 @@ d3.json("interactive-landscape.json").then(function(graph) {
         .on("mouseover", nodeMouseover)
         .on("mouseout", nodeMouseout);
 
-    // Draw node labels
     var labels = svg.selectAll(".label")
-    .data(graph.nodes)
-    .enter().append("text")
-    .attr("class", "label")
-    .text(function(d) { return d.id; })
-    .style("font-size", "6px")
-    .style("pointer-events", "none");
+        .data(graph.nodes)
+        .enter().append("text")
+        .attr("class", "label")
+        .text(function(d) { return d.id; })
+        .style("font-size", "8px")
+        .style("pointer-events", "none");
 
-    // Functions for the force layout
     function ticked() {
         link.attr("x1", function(d) { return d.source.x; })
             .attr("y1", function(d) { return d.source.y; })
             .attr("x2", function(d) { return d.target.x; })
             .attr("y2", function(d) { return d.target.y; });
-    
+
         node.attr("cx", function(d) { return d.x; })
             .attr("cy", function(d) { return d.y; });
-    
+
         labels.attr("x", function(d) { return d.x; })
               .attr("y", function(d) { return d.y; });
     }
 
     function dragstarted(event, d) {
-        if (!event.active) force.alphaTarget(0.1).restart();
+        if (!event.active) force.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
     }
@@ -126,7 +139,6 @@ d3.json("interactive-landscape.json").then(function(graph) {
         d.fy = null;
     }
 
-    // Functions for node interactions
     function nodeClicked(d, i) {
         d3.select(this).style("fill", d3.select(this).style("fill") === "orange" ? color(d.group) : "orange");
     }
@@ -154,7 +166,6 @@ d3.json("interactive-landscape.json").then(function(graph) {
             });
     }
 
-    // Explode graph on double-click anywhere
     svg.on("dblclick", function() {
         graph.nodes.forEach(function(o, i) {
             o.x += (Math.random() - .5) * 200;
@@ -162,5 +173,4 @@ d3.json("interactive-landscape.json").then(function(graph) {
         });
         force.alpha(1).restart();
     });
-
 });

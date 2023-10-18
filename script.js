@@ -66,8 +66,6 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
     });
 }
 
-
-
 d3.json("restructured_data.json").then(function(data) {
     const graph = { nodes: [], links: [] };
     graph.nodes.push(cncfNode);
@@ -121,7 +119,7 @@ d3.json("restructured_data.json").then(function(data) {
         .data(graph.nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", 2)
+        .attr("r", 3)
         .attr("fill", function(d) { return color(d.group); })
         .call(d3.drag()
             .on("start", dragstarted)
@@ -138,11 +136,20 @@ d3.json("restructured_data.json").then(function(data) {
         .enter().append("text")
         .attr("class", "label")
         .text(function(d) { 
-            // Remove the suffix from the label display
             return d.id.replace(' Cat', ''); 
         })
-        .style("font-size", "7px")
-        .style("pointer-events", "none");
+        .style("font-size", "5px")
+        .style("pointer-events", "none")
+        .style("display", document.getElementById('labelToggle').checked ? "block" : "none");
+
+    // Add the event listener for the checkbox here
+    document.getElementById('labelToggle').addEventListener('change', function() {
+        if (this.checked) {
+            d3.selectAll(".label").style("display", "block");
+        } else {
+            d3.selectAll(".label").style("display", "none");
+        }
+    });
 
     function ticked() {
         link.attr("x1", function(d) { return d.source.x; })

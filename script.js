@@ -22,7 +22,7 @@ var color = d3.scaleOrdinal(extendedPalette);
 
 var div = d3.select("div.tooltip");
 
-function calculateRadialPositions(nodes, center_x, center_y, inner_radius, outer_radius) {
+function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middle_radius, outer_radius) {
     const categories = nodes.filter(node => node.group === 1);
     const angleStepCategory = 2 * Math.PI / categories.length;
 
@@ -45,11 +45,27 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, outer
             const angleStepSubcategory = angleStepCategory / (subcategories.length + 1);
             const subcategoryIndex = subcategories.findIndex(n => n.id === node.id);
             const angle = parentAngle + (subcategoryIndex + 1) * angleStepSubcategory - angleStepCategory / 2;
-            node.fx = center_x + outer_radius * Math.cos(angle);
-            node.fy = center_y + outer_radius * Math.sin(angle);
+            node.fx = center_x + middle_radius * Math.cos(angle);
+            node.fy = center_y + middle_radius * Math.sin(angle);
+        } else if (node.group === 3) {
+            const parentSubcat = nodes.find(n => n.id === node.parentSubcategory && n.group === 2);
+            if(!parentSubcat) return;
+            const parentAngle = Math.atan2(parentSubcat.fy - center_y, parentSubcat.fx - center_x);
+            
+            const tools = nodes.filter(n => n.parentSubcategory === node.parentSubcategory && n.group === 3);
+            const adjacentSubcategories = nodes.filter(n => n.parentCategory === parentSubcat.parentCategory && n.group === 2);
+            const angularDistance = 2 * Math.PI / adjacentSubcategories.length;
+            const maxToolAngle = angularDistance / (tools.length + 1); // +1 to leave some space between tools
+            
+            const toolIndex = tools.findIndex(n => n.id === node.id);
+            const toolAngleOffset = (toolIndex + 1) * maxToolAngle - angularDistance / 2; // Center the tools around the parent
+            
+            node.fx = center_x + (outer_radius + 50) * Math.cos(parentAngle + toolAngleOffset);
+            node.fy = center_y + (outer_radius + 50) * Math.sin(parentAngle + toolAngleOffset);
         }
     });
 }
+
 
 
 d3.json("restructured_data.json").then(function(data) {
@@ -69,15 +85,27 @@ d3.json("restructured_data.json").then(function(data) {
             const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: catID };
             graph.nodes.push(subcategoryNode);
             graph.links.push({ source: catID, target: subcat.subcategory });
+
+            // Add tools/components as nodes and create links to their respective subcategories
+            // Set the maximum number of tools you want to display for each subcategory
+            const maxToolsPerSubcategory = 50;  // You can adjust this value
+
+            subcat.tools.forEach((tool, index) => {
+                if(index < maxToolsPerSubcategory) {
+                    const toolNode = { id: tool.Name, group: 3, parentSubcategory: subcat.subcategory };
+                    graph.nodes.push(toolNode);
+                    graph.links.push({ source: subcat.subcategory, target: tool.Name });
+                }
+            });
         });
     });
 
-    calculateRadialPositions(graph.nodes, w / 2, h / 2, 75, 150);
+    calculateRadialPositions(graph.nodes, w / 2, h / 2, 30, 120, 300);
 
     var force = d3.forceSimulation()
         .nodes(graph.nodes)
-        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
-        .force("charge", d3.forceManyBody().strength(-60).distanceMax(100))
+        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(30))
+        .force("charge", d3.forceManyBody().strength(-10))
         .force("center", d3.forceCenter(w / 2, h / 2))
         .force("collide", d3.forceCollide().radius(10))
         .on("tick", ticked);
@@ -93,7 +121,7 @@ d3.json("restructured_data.json").then(function(data) {
         .data(graph.nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", 7)
+        .attr("r", 2)
         .attr("fill", function(d) { return color(d.group); })
         .call(d3.drag()
             .on("start", dragstarted)

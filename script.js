@@ -86,7 +86,7 @@ d3.json("restructured_data.json").then(function(data) {
 
             // Add tools/components as nodes and create links to their respective subcategories
             // Set the maximum number of tools you want to display for each subcategory
-            const maxToolsPerSubcategory = 50;  // You can adjust this value
+            const maxToolsPerSubcategory = 80;  // You can adjust this value
 
             subcat.tools.forEach((tool, index) => {
                 if(index < maxToolsPerSubcategory) {
@@ -98,17 +98,79 @@ d3.json("restructured_data.json").then(function(data) {
         });
     });
 
-    calculateRadialPositions(graph.nodes, w / 2, h / 2, 30, 120, 300);
+    function resetNodePositions(nodes) {
+        nodes.forEach(node => {
+            node.fx = null;
+            node.fy = null;
+        });
+    }
+
+    document.getElementById('positionToggle').addEventListener('change', function() {
+        if (this.checked) {
+            calculateRadialPositions(graph.nodes, w / 2, h / 2, 60, 120, 500);
+        } else {
+            resetNodePositions(graph.nodes);
+        }
+        force.alpha(1).restart(); // This will cause the force layout to re-evaluate and update the visualization.
+    });
+    // calculateRadialPositions(graph.nodes, w / 2, h / 2, 60, 120, 500);
 
     var force = d3.forceSimulation()
         .nodes(graph.nodes)
-        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(30))
-        .force("charge", d3.forceManyBody().strength(-10))
+        .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(300))
+        .force("charge", d3.forceManyBody().strength(-5).distanceMax(450))
         .force("center", d3.forceCenter(w / 2, h / 2))
-        .force("collide", d3.forceCollide().radius(10))
+        .force("collide", d3.forceCollide().radius(15))
         .on("tick", ticked);
 
     force.force("link").links(graph.links);
+
+    document.getElementById('distanceSlider').addEventListener('input', function() {
+        const value = this.value;
+        document.getElementById('distanceValue').textContent = value;
+        force.force("link").distance(+value);
+        force.alpha(1).restart();
+    });
+    
+    document.getElementById('strengthSlider').addEventListener('input', function() {
+        const value = this.value;
+        document.getElementById('strengthValue').textContent = value;
+        force.force("charge").strength(+value);
+        force.alpha(1).restart();
+    });
+    
+    document.getElementById('collideSlider').addEventListener('input', function() {
+        const value = this.value;
+        document.getElementById('collideValue').textContent = value;
+        force.force("collide").radius(+value);
+        force.alpha(1).restart();
+    });
+
+    document.getElementById('resetButton').addEventListener('click', function() {
+        // Reset Sliders to Default Values
+        document.getElementById('distanceSlider').value = 300;
+        document.getElementById('distanceValue').textContent = 300;
+    
+        document.getElementById('strengthSlider').value = -3;
+        document.getElementById('strengthValue').textContent = -3;
+    
+        document.getElementById('collideSlider').value = 10;
+        document.getElementById('collideValue').textContent = 10;
+    
+        // Reset Checkboxes to Default Values
+        document.getElementById('labelToggle').checked = true;
+        d3.selectAll(".label").style("display", "block");  // Ensure labels are visible
+    
+        // document.getElementById('positionToggle').checked = true;
+        // Re-enable radial positions (if you have logic tied to this checkbox)
+    
+        // Reset the force simulation values
+        force.force("link").distance(300);
+        force.force("charge").strength(-5);
+        force.force("collide").radius(15);
+        force.alpha(1).restart();
+    });
+    
 
     var link = svg.selectAll(".link")
         .data(graph.links)

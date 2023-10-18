@@ -58,7 +58,14 @@
     <!-- <h1>CNCF Interactive Landscape</h1>
     <h2>Relationships among Categories, Subcategories, and Projects</h2> -->
     <input type="checkbox" id="labelToggle" checked> Show Labels
-
+    <input type="checkbox" id="positionToggle"> Enable Radial Positions
+    <label>Distance: <span id="distanceValue">300</span></label>
+    <input type="range" id="distanceSlider" min="10" max="700" value="300">
+    <label>Strength: <span id="strengthValue">-5</span></label>
+    <input type="range" id="strengthSlider" min="-200" max="200" value="-3">
+    <label>Collide: <span id="collideValue">15</span></label>
+    <input type="range" id="collideSlider" min="1" max="50" value="10">   
+    <button id="resetButton">Reset to Defaults</button> 
     <svg id="network" width="100%" height="100%"></svg>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>

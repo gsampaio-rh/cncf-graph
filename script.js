@@ -98,15 +98,15 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
             
             node.tx = center_x + (outer_radius + 50) * Math.cos(parentAngle + toolAngleOffset);
             node.ty = center_y + (outer_radius + 50) * Math.sin(parentAngle + toolAngleOffset);
-            console.log('Node ID:', node.id);
-            console.log('Parent Subcategory:', parentSubcat.id);
-            console.log('Parent Angle:', parentAngle);
-            console.log('Tool Angle Offset:', toolAngleOffset);
-            console.log('Target x:', node.tx);
-            console.log('Target y:', node.ty);
-            console.log('Parent Subcategory Object:', parentSubcat);
-            console.log('Parent Subcategory fx:', parentSubcat.x);
-            console.log('Parent Subcategory fy:', parentSubcat.y);
+            // console.log('Node ID:', node.id);
+            // console.log('Parent Subcategory:', parentSubcat.id);
+            // console.log('Parent Angle:', parentAngle);
+            // console.log('Tool Angle Offset:', toolAngleOffset);
+            // console.log('Target x:', node.tx);
+            // console.log('Target y:', node.ty);
+            // console.log('Parent Subcategory Object:', parentSubcat);
+            // console.log('Parent Subcategory fx:', parentSubcat.x);
+            // console.log('Parent Subcategory fy:', parentSubcat.y);
         }
     });
 }
@@ -134,7 +134,7 @@ d3.json("restructured_data.json").then(function(data) {
         force.force("collide").radius(+value);
         force.alpha(1).restart();
     }
-    
+
     function resetNodePositions(nodes) {
         nodes.forEach(node => {
             node.fx = null;

@@ -22,6 +22,41 @@ var color = d3.scaleOrdinal(extendedPalette);
 
 var div = d3.select("div.tooltip");
 
+function buildGraphFromData(data) {
+    const graph = { nodes: [], links: [] };
+    graph.nodes.push(cncfNode);
+
+    data.cncf.forEach((cat) => {
+        let catID = cat.category;
+        if (cat.category === "Orchestration & Management") {
+            catID += " Cat";
+        }
+        const categoryNode = { id: catID, group: 1 };
+        graph.nodes.push(categoryNode);
+        graph.links.push({ source: "CNCF", target: catID });
+        
+        cat.subcategories.forEach((subcat) => {
+            const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: catID };
+            graph.nodes.push(subcategoryNode);
+            graph.links.push({ source: catID, target: subcat.subcategory });
+
+            // Add tools/components as nodes and create links to their respective subcategories
+            // Set the maximum number of tools you want to display for each subcategory
+            const maxToolsPerSubcategory = 50;  // You can adjust this value
+
+            subcat.tools.forEach((tool, index) => {
+                if(index < maxToolsPerSubcategory) {
+                    const toolNode = { id: tool.Name, group: 3, parentSubcategory: subcat.subcategory };
+                    graph.nodes.push(toolNode);
+                    graph.links.push({ source: subcat.subcategory, target: tool.Name });
+                }
+            });
+        });
+    });
+
+    return graph;
+}
+
 function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middle_radius, outer_radius) {
     const categories = nodes.filter(node => node.group === 1);
     const angleStepCategory = 2 * Math.PI / categories.length;
@@ -76,36 +111,7 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
 }
 
 d3.json("restructured_data.json").then(function(data) {
-    const graph = { nodes: [], links: [] };
-    graph.nodes.push(cncfNode);
-
-    data.cncf.forEach((cat) => {
-        let catID = cat.category;
-        if (cat.category === "Orchestration & Management") {
-            catID += " Cat";
-        }
-        const categoryNode = { id: catID, group: 1 };
-        graph.nodes.push(categoryNode);
-        graph.links.push({ source: "CNCF", target: catID });
-    
-        cat.subcategories.forEach((subcat) => {
-            const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: catID };
-            graph.nodes.push(subcategoryNode);
-            graph.links.push({ source: catID, target: subcat.subcategory });
-
-            // Add tools/components as nodes and create links to their respective subcategories
-            // Set the maximum number of tools you want to display for each subcategory
-            const maxToolsPerSubcategory = 50;  // You can adjust this value
-
-            subcat.tools.forEach((tool, index) => {
-                if(index < maxToolsPerSubcategory) {
-                    const toolNode = { id: tool.Name, group: 3, parentSubcategory: subcat.subcategory };
-                    graph.nodes.push(toolNode);
-                    graph.links.push({ source: subcat.subcategory, target: tool.Name });
-                }
-            });
-        });
-    });
+    const graph = buildGraphFromData(data);
 
     function resetNodePositions(nodes) {
         nodes.forEach(node => {

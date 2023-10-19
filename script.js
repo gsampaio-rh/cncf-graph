@@ -33,25 +33,25 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
 
     nodes.forEach(node => {
         if (node.group === 0) {
-            node.fx = center_x;
-            node.fy = center_y;
+            node.tx = center_x;
+            node.ty = center_y;
         } else if (node.group === 1) {
             const angle = categoryAngles[node.id];
-            node.fx = center_x + inner_radius * Math.cos(angle);
-            node.fy = center_y + inner_radius * Math.sin(angle);
+            node.tx = center_x + inner_radius * Math.cos(angle);
+            node.ty = center_y + inner_radius * Math.sin(angle);
         } else if (node.group === 2) {
             const parentAngle = categoryAngles[node.parentCategory];
             const subcategories = nodes.filter(n => n.parentCategory === node.parentCategory && n.group === 2);
             const angleStepSubcategory = angleStepCategory / (subcategories.length + 1);
             const subcategoryIndex = subcategories.findIndex(n => n.id === node.id);
             const angle = parentAngle + (subcategoryIndex + 1) * angleStepSubcategory - angleStepCategory / 2;
-            node.fx = center_x + middle_radius * Math.cos(angle);
-            node.fy = center_y + middle_radius * Math.sin(angle);
+            node.tx = center_x + middle_radius * Math.cos(angle);
+            node.ty = center_y + middle_radius * Math.sin(angle);
         } else if (node.group === 3) {
             const parentSubcat = nodes.find(n => n.id === node.parentSubcategory && n.group === 2);
             if(!parentSubcat) return;
-            const parentAngle = Math.atan2(parentSubcat.fy - center_y, parentSubcat.fx - center_x);
-            
+            const parentAngle = Math.atan2(parentSubcat.y - center_y, parentSubcat.x - center_x);
+
             const tools = nodes.filter(n => n.parentSubcategory === node.parentSubcategory && n.group === 3);
             const adjacentSubcategories = nodes.filter(n => n.parentCategory === parentSubcat.parentCategory && n.group === 2);
             const angularDistance = 2 * Math.PI / adjacentSubcategories.length;
@@ -60,8 +60,17 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
             const toolIndex = tools.findIndex(n => n.id === node.id);
             const toolAngleOffset = (toolIndex + 1) * maxToolAngle - angularDistance / 2; // Center the tools around the parent
             
-            node.fx = center_x + (outer_radius + 50) * Math.cos(parentAngle + toolAngleOffset);
-            node.fy = center_y + (outer_radius + 50) * Math.sin(parentAngle + toolAngleOffset);
+            node.tx = center_x + (outer_radius + 50) * Math.cos(parentAngle + toolAngleOffset);
+            node.ty = center_y + (outer_radius + 50) * Math.sin(parentAngle + toolAngleOffset);
+            console.log('Node ID:', node.id);
+            console.log('Parent Subcategory:', parentSubcat.id);
+            console.log('Parent Angle:', parentAngle);
+            console.log('Tool Angle Offset:', toolAngleOffset);
+            console.log('Target x:', node.tx);
+            console.log('Target y:', node.ty);
+            console.log('Parent Subcategory Object:', parentSubcat);
+            console.log('Parent Subcategory fx:', parentSubcat.x);
+            console.log('Parent Subcategory fy:', parentSubcat.y);
         }
     });
 }
@@ -86,7 +95,7 @@ d3.json("restructured_data.json").then(function(data) {
 
             // Add tools/components as nodes and create links to their respective subcategories
             // Set the maximum number of tools you want to display for each subcategory
-            const maxToolsPerSubcategory = 80;  // You can adjust this value
+            const maxToolsPerSubcategory = 50;  // You can adjust this value
 
             subcat.tools.forEach((tool, index) => {
                 if(index < maxToolsPerSubcategory) {
@@ -108,10 +117,39 @@ d3.json("restructured_data.json").then(function(data) {
     document.getElementById('positionToggle').addEventListener('change', function() {
         if (this.checked) {
             calculateRadialPositions(graph.nodes, w / 2, h / 2, 60, 120, 500);
+            
+            // Apply the transition for nodes
+            node.transition()
+            .duration(1000)
+            .attrTween("cx", function(d) { 
+                return d3.interpolate(d.x, d.tx);
+            })
+            .attrTween("cy", function(d) { 
+                return d3.interpolate(d.y, d.ty);
+            })
+            .on("end", function(d) {
+                // Pin the node in place after the transition
+                d.fx = d.tx;
+                d.fy = d.ty;
+            });
+
+            // Apply the transition for labels
+            labels.transition()
+                .duration(1000)
+                .attr("x", function(d) { return d.tx; })
+                .attr("y", function(d) { return d.ty; });
+            
+            // Apply the transition for links
+            link.transition()
+                .duration(1000)
+                .attr("x1", function(d) { return d.source.tx; })
+                .attr("y1", function(d) { return d.source.ty; })
+                .attr("x2", function(d) { return d.target.tx; })
+                .attr("y2", function(d) { return d.target.ty; });
         } else {
             resetNodePositions(graph.nodes);
         }
-        force.alpha(1).restart(); // This will cause the force layout to re-evaluate and update the visualization.
+        force.alpha(1).restart(); 
     });
     // calculateRadialPositions(graph.nodes, w / 2, h / 2, 60, 120, 500);
 

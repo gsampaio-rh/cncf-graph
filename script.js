@@ -181,7 +181,15 @@ d3.json("restructured_data.json").then(function(data) {
         .data(graph.nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", 3)
+        .attr("r", function(d) {
+            switch(d.group) {
+                case 0: return 10;   // CNCF node size
+                case 1: return 7;    // Category node size
+                case 2: return 5;    // Subcategory node size
+                case 3: return 3;    // Tool node size
+                default: return 3;
+            }
+        })
         .attr("fill", function(d) { return color(d.group); })
         .call(d3.drag()
             .on("start", dragstarted)

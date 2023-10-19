@@ -22,6 +22,7 @@ var color = d3.scaleOrdinal(extendedPalette);
 
 var div = d3.select("div.tooltip");
 
+
 function buildGraphFromData(data) {
     const graph = { nodes: [], links: [] };
     graph.nodes.push(cncfNode);
@@ -34,7 +35,7 @@ function buildGraphFromData(data) {
         const categoryNode = { id: catID, group: 1 };
         graph.nodes.push(categoryNode);
         graph.links.push({ source: "CNCF", target: catID });
-        
+
         cat.subcategories.forEach((subcat) => {
             const subcategoryNode = { id: subcat.subcategory, group: 2, parentCategory: catID };
             graph.nodes.push(subcategoryNode);
@@ -113,6 +114,27 @@ function calculateRadialPositions(nodes, center_x, center_y, inner_radius, middl
 d3.json("restructured_data.json").then(function(data) {
     const graph = buildGraphFromData(data);
 
+    function handleDistanceSliderChange() {
+        const value = this.value;
+        document.getElementById('distanceValue').textContent = value;
+        force.force("link").distance(+value);
+        force.alpha(1).restart();
+    }
+    
+    function handleStrengthSliderChange() {
+        const value = this.value;
+        document.getElementById('strengthValue').textContent = value;
+        force.force("charge").strength(+value);
+        force.alpha(1).restart();
+    }
+    
+    function handleCollideSliderChange() {
+        const value = this.value;
+        document.getElementById('collideValue').textContent = value;
+        force.force("collide").radius(+value);
+        force.alpha(1).restart();
+    }
+    
     function resetNodePositions(nodes) {
         nodes.forEach(node => {
             node.fx = null;
@@ -168,27 +190,10 @@ d3.json("restructured_data.json").then(function(data) {
         .on("tick", ticked);
 
     force.force("link").links(graph.links);
-
-    document.getElementById('distanceSlider').addEventListener('input', function() {
-        const value = this.value;
-        document.getElementById('distanceValue').textContent = value;
-        force.force("link").distance(+value);
-        force.alpha(1).restart();
-    });
     
-    document.getElementById('strengthSlider').addEventListener('input', function() {
-        const value = this.value;
-        document.getElementById('strengthValue').textContent = value;
-        force.force("charge").strength(+value);
-        force.alpha(1).restart();
-    });
-    
-    document.getElementById('collideSlider').addEventListener('input', function() {
-        const value = this.value;
-        document.getElementById('collideValue').textContent = value;
-        force.force("collide").radius(+value);
-        force.alpha(1).restart();
-    });
+    document.getElementById('distanceSlider').addEventListener('input', handleDistanceSliderChange);
+    document.getElementById('strengthSlider').addEventListener('input', handleStrengthSliderChange);
+    document.getElementById('collideSlider').addEventListener('input', handleCollideSliderChange);
 
     document.getElementById('resetButton').addEventListener('click', function() {
         // Reset Sliders to Default Values

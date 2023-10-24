@@ -2,6 +2,7 @@
 
 A D3.js-based visualization to represent CNCF tools based on their categories and subcategories.
 
+![Graph](images/cncf_graph.png)
 ## Features
 
 - Interactive SVG visualization.
